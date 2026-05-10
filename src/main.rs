@@ -3,7 +3,7 @@ use std::path::PathBuf;
 
 use clap::Parser;
 use clap_verbosity_flag::{InfoLevel, Verbosity};
-use log::debug;
+use log::{debug, info};
 
 use sum_modpack::Modpack;
 
@@ -22,10 +22,12 @@ fn main() -> Result<(), Box<dyn Error>> {
     };
 
     debug!("{modpack:?}");
-    if modpack.workshop_ids.len() < 1 {
+    let len = modpack.workshop_ids.len();
+    if len < 1 {
         return Err("No workshop IDs found".into());
     }
 
+    info!("Fetching {len} workshop mods");
     let stats = modpack.fetch_stats()?;
     debug!("{stats:?}");
 
