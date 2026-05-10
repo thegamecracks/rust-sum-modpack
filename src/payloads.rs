@@ -2,29 +2,25 @@ use std::collections::HashMap;
 
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Deserialize, Serialize)]
-#[serde(untagged)]
-pub enum PublishedFileDetails {
-    #[serde(skip_deserializing)]
-    Request {
-        itemcount: usize,
-        #[serde(flatten)]
-        publishedfileids: HashMap<String, u64>,
-    },
-
-    #[serde(skip_serializing)]
-    Response {
-        publishedfiledetails: Vec<FileDetails>,
-    },
+#[derive(Debug, Serialize)]
+pub struct PublishedFileDetailsRequest {
+    pub itemcount: usize,
+    #[serde(flatten)]
+    pub publishedfileids: HashMap<String, u64>,
 }
 
-impl PublishedFileDetails {
-    pub fn new_request(workshop_ids: &[u64]) -> Self {
-        Self::Request {
+impl PublishedFileDetailsRequest {
+    pub fn new(workshop_ids: &[u64]) -> Self {
+        Self {
             itemcount: workshop_ids.len(),
             publishedfileids: create_publishedfileids(workshop_ids),
         }
     }
+}
+
+#[derive(Debug, Deserialize)]
+pub struct PublishedFileDetailsResponse {
+    pub publishedfiledetails: Vec<FileDetails>,
 }
 
 #[derive(Debug, Deserialize)]
