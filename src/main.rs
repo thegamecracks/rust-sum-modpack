@@ -3,11 +3,15 @@ use std::path::PathBuf;
 
 use clap::Parser;
 use clap_verbosity_flag::{InfoLevel, Verbosity};
+use log::debug;
 
 use sum_modpack::Modpack;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let cli = Cli::parse();
+    pretty_env_logger::formatted_builder()
+        .filter_level(cli.verbosity.log_level_filter())
+        .init();
 
     let modpack = match Modpack::from_path(&cli.modpack) {
         Ok(modpack) => modpack,
