@@ -68,15 +68,38 @@ mod tests {
     fn parse_payloads_ok() {
         let mut path = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap());
         path.push("tests/payloads_ok.json");
+
         let content = std::fs::read_to_string(path).unwrap();
-        serde_json::from_str::<PublishedFileDetailsResponse>(&content).unwrap();
+        let response = serde_json::from_str::<PublishedFileDetailsResponse>(&content).unwrap();
+
+        for details in response.response.publishedfiledetails {
+            match details {
+                FileDetails::Ok { .. } => (),
+                FileDetails::Err { .. } => panic!("Expected Ok, got {:?}", details),
+            };
+        };
     }
 
     #[test]
     fn parse_payloads_err() {
         let mut path = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap());
         path.push("tests/payloads_err.json");
+
         let content = std::fs::read_to_string(path).unwrap();
-        serde_json::from_str::<PublishedFileDetailsResponse>(&content).unwrap();
+        let response = serde_json::from_str::<PublishedFileDetailsResponse>(&content).unwrap();
+
+        let [valid, invalid] = &response.response.publishedfiledetails[..] else {
+            panic!("Expected 2 elements, got {}", response.response.publishedfiledetails.len());
+        };
+
+        match valid {
+            FileDetails::Ok { .. } => (),
+            FileDetails::Err { .. } => panic!("Expected Ok, got {:?}", valid),
+        };
+
+        match invalid {
+            FileDetails::Ok { .. } => panic!("Expected Err, got {:?}", invalid),
+            FileDetails::Err { .. } => (),
+        };
     }
 }
