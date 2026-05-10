@@ -1257,6 +1257,7 @@ name = "sum_modpack"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "log",
  "regex",
  "reqwest",
  "serde",
