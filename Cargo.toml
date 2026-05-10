@@ -14,3 +14,4 @@ reqwest = { version = "0.13.3", features = ["blocking", "form", "json"] }
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.149"
 serde_urlencoded = "0.7.1"
+tabled = "0.20.0"
