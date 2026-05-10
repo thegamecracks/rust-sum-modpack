@@ -21,13 +21,13 @@ fn main() -> Result<(), Box<dyn Error>> {
         }
     };
 
-    println!("{modpack:?}");
+    debug!("{modpack:?}");
     if modpack.workshop_ids.len() < 1 {
         return Err("No workshop IDs found".into());
     }
 
     let stats = modpack.fetch_stats()?;
-    println!("{stats:?}");
+    debug!("{stats:?}");
 
     Ok(())
 }
