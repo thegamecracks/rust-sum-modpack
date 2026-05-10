@@ -3,7 +3,7 @@
 A rewrite of my [sum_modpack.py] script in Rust, for fun!
 
 ```rust
-$ cargo run -q -- my_modpack.html
+$ cargo run -q -- examples/WHF_Drakovac.html
  INFO  sum_modpack > Fetching 19 workshop mods
 ╭────┬────────────┬──────────────┬─────────┬───────────────────────────────────╮
 │  # │ Total (up) │ Total (down) │    Size │ Title                             │
@@ -33,7 +33,7 @@ $ cargo run -q -- my_modpack.html
 The output of `sum_modpack.py` for comparison:
 
 ```py
-$ python sum_modpack.py my_modpack.html
+$ python sum_modpack.py examples/WHF_Drakovac.html
 Number of mods: 19
   #  Total (up)  Total (down)       Size  Title
   1     4,952MB       3,934MB    3,934MB  JSRS SOUNDMOD 2025
