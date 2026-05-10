@@ -48,6 +48,11 @@ impl Modpack {
             .post(Self::STEAMAPI_FILEDETAILS_URL)
             .form(&request)
             .send()?;
+
+        // let mut content = String::new();
+        // response.read_to_string(&mut content)?;
+        // println!("{content}");
+
         let response = response.json::<payloads::PublishedFileDetailsResponse>()?;
         Ok(ModpackStats::from_response(&response)?)
     }
@@ -63,7 +68,7 @@ impl ModpackStats {
         response: &payloads::PublishedFileDetailsResponse,
     ) -> Result<Self, String> {
         let mut mods = vec![];
-        for details in response.publishedfiledetails.iter() {
+        for details in response.response.publishedfiledetails.iter() {
             match details {
                 payloads::FileDetails::Ok {
                     publishedfileid,

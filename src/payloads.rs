@@ -20,6 +20,11 @@ impl PublishedFileDetailsRequest {
 
 #[derive(Debug, Deserialize)]
 pub struct PublishedFileDetailsResponse {
+    pub response: PublishedFileDetailsResponseResponse,
+}
+
+#[derive(Debug, Deserialize)]
+pub struct PublishedFileDetailsResponseResponse { // FIXME: is there a better name/approach?
     pub publishedfiledetails: Vec<FileDetails>,
 }
 
