@@ -4,7 +4,7 @@ use regex::Regex;
 
 #[derive(Debug)]
 pub struct Modpack {
-    workshop_ids: Vec<u64>,
+    pub workshop_ids: Vec<u64>,
 }
 
 impl Modpack {
