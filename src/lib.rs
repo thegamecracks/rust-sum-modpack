@@ -77,8 +77,12 @@ impl ModpackStats {
                     file_size,
                     tags: _,
                 } => {
+                    let publishedfileid = publishedfileid
+                        .parse()
+                        .map_err(|_| format!("Item ID is invalid: {publishedfileid}"))?;
+
                     mods.push(Mod {
-                        publishedfileid: *publishedfileid,
+                        publishedfileid,
                         title: title.to_string(),
                         description: description.to_string(),
                         file_size: *file_size,

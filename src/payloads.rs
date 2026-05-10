@@ -33,14 +33,14 @@ pub struct PublishedFileDetailsResponseResponse {
 #[serde(untagged)]
 pub enum FileDetails {
     Ok {
-        publishedfileid: u64,
+        publishedfileid: String, // FIXME: can this be deserialized into u64?
         title: String,
         description: String,
         file_size: u64,
         tags: Vec<Tag>,
     },
     Err {
-        publishedfileid: u64,
+        publishedfileid: String, // FIXME: can this be deserialized into u64?
         result: u64,
     },
 }
