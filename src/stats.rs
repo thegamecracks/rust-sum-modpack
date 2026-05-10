@@ -79,7 +79,20 @@ struct ModStatRow {
 }
 
 fn display_filesize(n: &u64) -> String {
-    todo!()
+    if *n < 1_000 {
+        format!("{n}B")
+    } else if *n < 1_000_000 {
+        let n = n.div_ceil(1_000);
+        format!("{n}KB")
+    } else {
+        let n = n.div_ceil(1_000_000);
+
+        let mut buf = num_format::Buffer::default();
+        buf.write_formatted(&n, &num_format::Locale::en);
+        let s = buf.as_str();
+
+        format!("{s}MB")
+    }
 }
 
 #[derive(Clone, Debug)]
