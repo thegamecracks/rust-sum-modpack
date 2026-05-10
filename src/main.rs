@@ -31,7 +31,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let stats = modpack.fetch_stats()?;
     debug!("{stats:?}");
 
-    println!("{}", stats.to_string());
+    println!("{stats}");
 
     Ok(())
 }

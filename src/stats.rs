@@ -1,3 +1,4 @@
+use std::fmt::Display;
 use std::num::ParseIntError;
 
 use itertools::izip;
@@ -37,8 +38,8 @@ impl ModpackStats {
     }
 }
 
-impl ToString for ModpackStats {
-    fn to_string(&self) -> String {
+impl Display for ModpackStats {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let mut mods: Vec<Mod> = self.mods.to_vec();
         mods.sort_by(|a, b| a.title.cmp(&b.title));
         mods.sort_by(|a, b| b.file_size.cmp(&a.file_size));
@@ -66,7 +67,7 @@ impl ToString for ModpackStats {
         Table::new(rows)
             .with(Style::rounded())
             .modify(Columns::new(..).not(Columns::last()), Alignment::right())
-            .to_string()
+            .fmt(f)
     }
 }
 
