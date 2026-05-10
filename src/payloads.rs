@@ -24,7 +24,8 @@ pub struct PublishedFileDetailsResponse {
 }
 
 #[derive(Debug, Deserialize)]
-pub struct PublishedFileDetailsResponseResponse { // FIXME: is there a better name/approach?
+pub struct PublishedFileDetailsResponseResponse {
+    // FIXME: is there a better name/approach?
     pub publishedfiledetails: Vec<FileDetails>,
 }
 
@@ -55,4 +56,27 @@ fn create_publishedfileids(workshop_ids: &[u64]) -> HashMap<String, u64> {
         .enumerate()
         .map(|(i, id)| (format!("publishedfileids[{i}]"), id.to_owned())) // FIXME: is copy appropriate?
         .collect()
+}
+
+#[cfg(test)]
+mod tests {
+    use std::path::PathBuf;
+
+    use super::*;
+
+    #[test]
+    fn parse_payloads_ok() {
+        let mut path = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap());
+        path.push("tests/payloads_ok.json");
+        let content = std::fs::read_to_string(path).unwrap();
+        serde_json::from_str::<PublishedFileDetailsResponse>(&content).unwrap();
+    }
+
+    #[test]
+    fn parse_payloads_err() {
+        let mut path = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap());
+        path.push("tests/payloads_err.json");
+        let content = std::fs::read_to_string(path).unwrap();
+        serde_json::from_str::<PublishedFileDetailsResponse>(&content).unwrap();
+    }
 }

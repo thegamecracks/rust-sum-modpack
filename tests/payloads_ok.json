@@ -1,0 +1,1384 @@
+{
+    "response": {
+        "result": 1,
+        "resultcount": 40,
+        "publishedfiledetails": [
+            {
+                "publishedfileid": "2794721649",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "16048391",
+                "file_url": "",
+                "hcontent_file": "5812365851490160502",
+                "preview_url": "https://images.steamusercontent.com/ugc/58084575848579778/B269EE621B05AFB2B1BC109E81622C2883D83A48/",
+                "hcontent_preview": "58084575848579778",
+                "title": "Advanced Vault System: Remastered",
+                "description": "[h1]Advanced Vault System, but smoother, better and cooler.[/h1]\r\nVersion: 1.5\r\n\r\n[h1]IF YOU GET STUCK IN OBJECTS WHENEVER YOU VAULT, MAKE SURE YOU ENABLE WMO[/h1]\r\nhttps://steamcommunity.com/workshop/filedetails/?id=925018569\r\nBut from now on WMO will not be a dependency.\r\n\r\n[h1]Space Marine Expansion[/h1] https://steamcommunity.com/sharedfiles/filedetails/?id=2794729687\r\n[h1]Spartans Expansion[/h1] https://steamcommunity.com/sharedfiles/filedetails/?id=3391132245\r\n\r\nOld mod was my first experience in animating something for Arma skeleton, and the code was not good at all.\r\nI decided that i need to return and re-do the mod up to my current standarts. And, here it is! \r\n\r\n[h1]Mod can fit many play styles, starting from milsim, ending with Titanfall a-like OP. Its all up to you! Cause you can customize some parts of the mod.[/h1]\r\n\r\n[h1]Whats new in this version?[/h1]\r\n[list]\r\n [*] Whole code was re-writen from scratch. It can detect most of the geometries properly. Its not perfect, but its better then it was previously. \r\n[*]No more invisible arrows that break helicopters, antistasi and other things.\r\n[*]No more going underwater if you are trying to vault above water surfaces.\r\n[*]No weird camera glitches, all actions now smooth and will not cause headache.\r\n [*] No more FPS loses. Codes only runs when it needs to.\r\n [*] NO MORE TELEPORTATIONS TO THE EDGE OF THE MAP! That annoying bug was finally fixed.\r\n [*] Most of the animations were re-done. Weapon bones were fixed and do not flex whenever you vault over something. Interpolation (Smoothness) between animations were improved. Animations are as smooth as i can get. \r\n[*] Didnt wanted to re-animate everything, but still there is a lot of new stuff.\r\n[*] New advanced parkour animations.\r\n[*] If you dont like something - you can easily - disable it, or if you like - enable. Most of parts of AVS can be adjusted in Configure - Game - Configure Addons\r\n[/list]\r\n\r\n[h1]Controls[/h1]\r\n[h1]You can change keybinds through Configure - Controls - Configure Addons[/h1]\r\n[list]\r\n [*] Press V to vault/climb/jump (By default)\r\n[*]Look down and press same keybind as vaulting and you will jump down.\r\n[*] Press SHIFT+X to slide/roll. (By default)\r\n[/list]\r\n\r\n[h1]PLEASE JOIN MY DISCORD, IT IS EASIER TO ANSWER YOUR QUESTIONS/BUG REPORTS FOR ME THERE - https://discord.gg/UJfDvdyr7w[/h1]\r\nHave fun!\r\n\r\nMain Credits:\r\n[u]Macser - For awesome ArmaRig for blender!\r\nBohemia Interactive - For awesome game and platform!\r\nMy patreons - for supporting my work.\r\n[/u]\r\n",
+                "time_created": 1650035449,
+                "time_updated": 1737641250,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 136437,
+                "favorited": 6003,
+                "lifetime_subscriptions": 237426,
+                "lifetime_favorited": 6559,
+                "views": 102385,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2794721649",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "16048391",
+                "file_url": "",
+                "hcontent_file": "5812365851490160502",
+                "preview_url": "https://images.steamusercontent.com/ugc/58084575848579778/B269EE621B05AFB2B1BC109E81622C2883D83A48/",
+                "hcontent_preview": "58084575848579778",
+                "title": "Advanced Vault System: Remastered",
+                "description": "[h1]Advanced Vault System, but smoother, better and cooler.[/h1]\r\nVersion: 1.5\r\n\r\n[h1]IF YOU GET STUCK IN OBJECTS WHENEVER YOU VAULT, MAKE SURE YOU ENABLE WMO[/h1]\r\nhttps://steamcommunity.com/workshop/filedetails/?id=925018569\r\nBut from now on WMO will not be a dependency.\r\n\r\n[h1]Space Marine Expansion[/h1] https://steamcommunity.com/sharedfiles/filedetails/?id=2794729687\r\n[h1]Spartans Expansion[/h1] https://steamcommunity.com/sharedfiles/filedetails/?id=3391132245\r\n\r\nOld mod was my first experience in animating something for Arma skeleton, and the code was not good at all.\r\nI decided that i need to return and re-do the mod up to my current standarts. And, here it is! \r\n\r\n[h1]Mod can fit many play styles, starting from milsim, ending with Titanfall a-like OP. Its all up to you! Cause you can customize some parts of the mod.[/h1]\r\n\r\n[h1]Whats new in this version?[/h1]\r\n[list]\r\n [*] Whole code was re-writen from scratch. It can detect most of the geometries properly. Its not perfect, but its better then it was previously. \r\n[*]No more invisible arrows that break helicopters, antistasi and other things.\r\n[*]No more going underwater if you are trying to vault above water surfaces.\r\n[*]No weird camera glitches, all actions now smooth and will not cause headache.\r\n [*] No more FPS loses. Codes only runs when it needs to.\r\n [*] NO MORE TELEPORTATIONS TO THE EDGE OF THE MAP! That annoying bug was finally fixed.\r\n [*] Most of the animations were re-done. Weapon bones were fixed and do not flex whenever you vault over something. Interpolation (Smoothness) between animations were improved. Animations are as smooth as i can get. \r\n[*] Didnt wanted to re-animate everything, but still there is a lot of new stuff.\r\n[*] New advanced parkour animations.\r\n[*] If you dont like something - you can easily - disable it, or if you like - enable. Most of parts of AVS can be adjusted in Configure - Game - Configure Addons\r\n[/list]\r\n\r\n[h1]Controls[/h1]\r\n[h1]You can change keybinds through Configure - Controls - Configure Addons[/h1]\r\n[list]\r\n [*] Press V to vault/climb/jump (By default)\r\n[*]Look down and press same keybind as vaulting and you will jump down.\r\n[*] Press SHIFT+X to slide/roll. (By default)\r\n[/list]\r\n\r\n[h1]PLEASE JOIN MY DISCORD, IT IS EASIER TO ANSWER YOUR QUESTIONS/BUG REPORTS FOR ME THERE - https://discord.gg/UJfDvdyr7w[/h1]\r\nHave fun!\r\n\r\nMain Credits:\r\n[u]Macser - For awesome ArmaRig for blender!\r\nBohemia Interactive - For awesome game and platform!\r\nMy patreons - for supporting my work.\r\n[/u]\r\n",
+                "time_created": 1650035449,
+                "time_updated": 1737641250,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 136437,
+                "favorited": 6003,
+                "lifetime_subscriptions": 237426,
+                "lifetime_favorited": 6559,
+                "views": 102385,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2198339170",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "1780515",
+                "file_url": "",
+                "hcontent_file": "814561515393923845",
+                "preview_url": "https://images.steamusercontent.com/ugc/2462983308939867388/C0E95A2DE2B2159864ED0B7DEB8B187F14AF09CF/",
+                "hcontent_preview": "2462983308939867388",
+                "title": "Alternative Running",
+                "description": "[h1]Alternative Running - is a mod that will allow you to sprint in alternative way by pressing Double Shift. (Similar to Call of Duty Modern Warfare 2019)\r\n\r\nIf you do not know how to use it, please watch the video.\r\n [/h1]\r\n\r\nVersion: 4.0 \r\nAnimation and code was maded from scratch by me.\r\n\r\n[h1]You can customize your keybinds and different client settings. (Please look at first two screenshots)  \r\n\r\nYOU CAN DISABLE THE ANIMATION BY PRESSING THE SAME KEY YOU BOUND YOUR ALTERNATIVE RUNNING, OR BY PRESSING YOUR MOVEMENT/PRONE/CROUCH KEYS.\r\n[/h1]\r\nAll of the settings client-sided, that means that if you dont like alternative MG run animation, you can disable that, but other players will still use it.\r\n\r\n\r\nRead this before usage:\r\n[list]\r\n [*]With alternative running you will run faster, but it will cost more stamina (Compatibly with ACE3 stamina!)\r\n [*] About 7 different run animation for different weapon types\r\n [*]You cant use alternative running if you are out of stamina, or if your legs are damaged.\r\n [*]You can use alternative running even in water and special animation will be played.\r\n[/list]\r\n\r\nKnown bugs:\r\nNone\r\n\r\n\r\nCredits:\r\nHinde [2 R ANG] - inspiration, idea.\r\njohnb43 and EasyArma - code examples and overhaul help\r\nMacser - For awesome ArmaRig for blender!\r\nBohemia Interactive - For awesome game and platform!\r\nKKA3 (Or Kola) - for helping me with some of the stuff.",
+                "time_created": 1597507162,
+                "time_updated": 1715605261,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 153307,
+                "favorited": 5619,
+                "lifetime_subscriptions": 282468,
+                "lifetime_favorited": 6255,
+                "views": 99046,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2198339170",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "1780515",
+                "file_url": "",
+                "hcontent_file": "814561515393923845",
+                "preview_url": "https://images.steamusercontent.com/ugc/2462983308939867388/C0E95A2DE2B2159864ED0B7DEB8B187F14AF09CF/",
+                "hcontent_preview": "2462983308939867388",
+                "title": "Alternative Running",
+                "description": "[h1]Alternative Running - is a mod that will allow you to sprint in alternative way by pressing Double Shift. (Similar to Call of Duty Modern Warfare 2019)\r\n\r\nIf you do not know how to use it, please watch the video.\r\n [/h1]\r\n\r\nVersion: 4.0 \r\nAnimation and code was maded from scratch by me.\r\n\r\n[h1]You can customize your keybinds and different client settings. (Please look at first two screenshots)  \r\n\r\nYOU CAN DISABLE THE ANIMATION BY PRESSING THE SAME KEY YOU BOUND YOUR ALTERNATIVE RUNNING, OR BY PRESSING YOUR MOVEMENT/PRONE/CROUCH KEYS.\r\n[/h1]\r\nAll of the settings client-sided, that means that if you dont like alternative MG run animation, you can disable that, but other players will still use it.\r\n\r\n\r\nRead this before usage:\r\n[list]\r\n [*]With alternative running you will run faster, but it will cost more stamina (Compatibly with ACE3 stamina!)\r\n [*] About 7 different run animation for different weapon types\r\n [*]You cant use alternative running if you are out of stamina, or if your legs are damaged.\r\n [*]You can use alternative running even in water and special animation will be played.\r\n[/list]\r\n\r\nKnown bugs:\r\nNone\r\n\r\n\r\nCredits:\r\nHinde [2 R ANG] - inspiration, idea.\r\njohnb43 and EasyArma - code examples and overhaul help\r\nMacser - For awesome ArmaRig for blender!\r\nBohemia Interactive - For awesome game and platform!\r\nKKA3 (Or Kola) - for helping me with some of the stuff.",
+                "time_created": 1597507162,
+                "time_updated": 1715605261,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 153307,
+                "favorited": 5619,
+                "lifetime_subscriptions": 282468,
+                "lifetime_favorited": 6255,
+                "views": 99046,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3085697583",
+                "result": 1,
+                "creator": "76561198225032904",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "14073",
+                "file_url": "",
+                "hcontent_file": "2387623432307380253",
+                "preview_url": "https://images.steamusercontent.com/ugc/2456222204377736370/07E360AB2EEBAC22650B9F99AFDAEAAF0D6D3986/",
+                "hcontent_preview": "2456222204377736370",
+                "title": "Automatic Warning Suppressor",
+                "description": "[i]Useful for developers when using mods with annoying warning messages that require user interaction to continue[/i]\r\n\r\n[b]NOTE:[/b] Use the [i]-nologs[/i] command line parameter instead if you are not a developer. This mod is helpful for those who would like a faster development experience without their game being suspended by verbose warning messages that present themselves as logs anyway.\r\n\r\n[h2][b]SYNOPSIS[/b][/h2]\r\nCloses all ArmA 3 warning messages automatically and only prints to user's RPT file.\r\n\r\n[h2][b]MOD DEVELOPERS[/b][/h2]\r\n[i]NOTE[/i]: Please do your do-diligence in resolving these warnings instead of suppressing them as they can have significant performance issues.\r\n\r\n[h2][b]DISCLAIMER[/b][/h2]\r\nYou are not allowed to re-upload this mod in any mod pack on the workshop without explicit permission.\r\n\r\n[url=https://www.buymeacoffee.com/skirmishuk][img]https://i.imgur.com/uY8wEzC.png[/img][/url]",
+                "time_created": 1700180513,
+                "time_updated": 1709932586,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 72892,
+                "favorited": 1898,
+                "lifetime_subscriptions": 120753,
+                "lifetime_favorited": 2031,
+                "views": 39624,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Editor Extension"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3085697583",
+                "result": 1,
+                "creator": "76561198225032904",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "14073",
+                "file_url": "",
+                "hcontent_file": "2387623432307380253",
+                "preview_url": "https://images.steamusercontent.com/ugc/2456222204377736370/07E360AB2EEBAC22650B9F99AFDAEAAF0D6D3986/",
+                "hcontent_preview": "2456222204377736370",
+                "title": "Automatic Warning Suppressor",
+                "description": "[i]Useful for developers when using mods with annoying warning messages that require user interaction to continue[/i]\r\n\r\n[b]NOTE:[/b] Use the [i]-nologs[/i] command line parameter instead if you are not a developer. This mod is helpful for those who would like a faster development experience without their game being suspended by verbose warning messages that present themselves as logs anyway.\r\n\r\n[h2][b]SYNOPSIS[/b][/h2]\r\nCloses all ArmA 3 warning messages automatically and only prints to user's RPT file.\r\n\r\n[h2][b]MOD DEVELOPERS[/b][/h2]\r\n[i]NOTE[/i]: Please do your do-diligence in resolving these warnings instead of suppressing them as they can have significant performance issues.\r\n\r\n[h2][b]DISCLAIMER[/b][/h2]\r\nYou are not allowed to re-upload this mod in any mod pack on the workshop without explicit permission.\r\n\r\n[url=https://www.buymeacoffee.com/skirmishuk][img]https://i.imgur.com/uY8wEzC.png[/img][/url]",
+                "time_created": 1700180513,
+                "time_updated": 1709932586,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 72892,
+                "favorited": 1898,
+                "lifetime_subscriptions": 120753,
+                "lifetime_favorited": 2031,
+                "views": 39624,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Editor Extension"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2791403093",
+                "result": 1,
+                "creator": "76561197986222674",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "106238",
+                "file_url": "",
+                "hcontent_file": "5899262306366770570",
+                "preview_url": "https://images.steamusercontent.com/ugc/1812145140779902648/D6781B7FB5942FB40537D4B53BE63BE9C3C67AAF/",
+                "hcontent_preview": "1812145140779902648",
+                "title": "Better Inventory",
+                "description": "Are you also annoyed to switch between Uniform, Vest and Backpack?\r\nHere is the solution to this madness.\r\n\r\n[h1][u]Features:[/u][/h1]\r\n- Changed Inventory Layout\r\n- Contents of Uniform, Vest and Backpack are visible at the same time.\r\n- [b]Clientside Mod[/b]. The Mod only needs to be whitelisted on the Server and have CBA installed.\r\n- [b]Stack Moving[/b]. Move many Items/Magazines at the same Time.\r\n- [b]Task Force Radio Buttons[/b] to open the settings of equipped Radios.\r\n\r\n[h1][u]Stack Moving:[/u][/h1]\r\n- [b]Hold Shift[/b] while moving Items to move 5 Items at the same time.\r\n- [b]Hold Ctrl[/b] to move as many items as possible.\r\n- The Key Bindings can be changed under [b]\"Options-->Controls-->Better Inventory\"[/b].\r\n- When you stack move a Magazine that has not Full Ammo, it will only move other Magazines that have not Full Ammo, the same goes for Full Magazines.\r\n\r\n[b][u]Limitations:[/u][/b]\r\n- Only Items and Magazines can be Stack Moved.\r\n- Not Weapons or Containers like Uniforms.\r\n- Not from Containers(Boxes/Vehicles) to Ground.\r\n\r\n- The Limitations are because of the hardcoded nature of the Arma 3 Inventory and limited scripting possibilities for that.\r\n\r\n[h1][u]Compatibility:[/u][/h1]\r\nThe Mod has Build-in Compatibility with the following Mods.\r\n- [url=https://steamcommunity.com/workshop/filedetails/?id=463939057]Ace[/url]\r\n- [url=https://steamcommunity.com/workshop/filedetails/?id=751965892]ACRE2[/url]\r\n- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1334412770]Dual Arms - Two Primary Weapons[/url]\r\n- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1487484880]ExileMod[/url]\r\n- Should be compatible with every other mod/mission that doesn't drastically changes the Inventory.\r\n\r\n[h1][u]Known Bugs/Problems:[/u][/h1]\r\n- When you stack move magazines from a container with many (1000 or so) Magazines, the game lags for a second. This is because you can not move Magazines in Arma 3 with a script, so the mod needs to delete and readd all Magazines. I try to fix/ease this problem in the next update.\r\n- Singleplayer Equipment Menu for AI etc. at the start of the Game is not working.\r\n\r\n[h1][u]Bug Reporting:[/u][/h1]\r\n- Please provide your video resolution and interface size settings as part of your bug report if your report is ui related.\r\n- Try to reproduce the bug with all other mods except CBA disabled.\r\n- You can still report bugs only happening in combination with other mods but please try to provide as much information as possible. If possible share your modlist with me or even better the exact mod if you can identify it yourself.\r\n\r\n[h1][u]Repacking/Reupload of the Mod:[/u][/h1]\r\n- You are allowed to repack this mod as long as its not bundled into a public mod on the steam workshop or somewhere else online.\r\n- Private (aka friends only) mods on the workshop or somewhere else are allowed.\r\n\r\n[h1][u]Donations:[/u][/h1]\r\nWant to thank me and support my work with a Donation?\r\n\r\n[url=https://ko-fi.com/xaneas] [img]https://i.imgur.com/at6IvJM.png[/img] [/url]",
+                "time_created": 1649465951,
+                "time_updated": 1703457687,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 359830,
+                "favorited": 9363,
+                "lifetime_subscriptions": 504705,
+                "lifetime_favorited": 10073,
+                "views": 198004,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Character"
+                    },
+                    {
+                        "tag": "Equipment"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2791403093",
+                "result": 1,
+                "creator": "76561197986222674",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "106238",
+                "file_url": "",
+                "hcontent_file": "5899262306366770570",
+                "preview_url": "https://images.steamusercontent.com/ugc/1812145140779902648/D6781B7FB5942FB40537D4B53BE63BE9C3C67AAF/",
+                "hcontent_preview": "1812145140779902648",
+                "title": "Better Inventory",
+                "description": "Are you also annoyed to switch between Uniform, Vest and Backpack?\r\nHere is the solution to this madness.\r\n\r\n[h1][u]Features:[/u][/h1]\r\n- Changed Inventory Layout\r\n- Contents of Uniform, Vest and Backpack are visible at the same time.\r\n- [b]Clientside Mod[/b]. The Mod only needs to be whitelisted on the Server and have CBA installed.\r\n- [b]Stack Moving[/b]. Move many Items/Magazines at the same Time.\r\n- [b]Task Force Radio Buttons[/b] to open the settings of equipped Radios.\r\n\r\n[h1][u]Stack Moving:[/u][/h1]\r\n- [b]Hold Shift[/b] while moving Items to move 5 Items at the same time.\r\n- [b]Hold Ctrl[/b] to move as many items as possible.\r\n- The Key Bindings can be changed under [b]\"Options-->Controls-->Better Inventory\"[/b].\r\n- When you stack move a Magazine that has not Full Ammo, it will only move other Magazines that have not Full Ammo, the same goes for Full Magazines.\r\n\r\n[b][u]Limitations:[/u][/b]\r\n- Only Items and Magazines can be Stack Moved.\r\n- Not Weapons or Containers like Uniforms.\r\n- Not from Containers(Boxes/Vehicles) to Ground.\r\n\r\n- The Limitations are because of the hardcoded nature of the Arma 3 Inventory and limited scripting possibilities for that.\r\n\r\n[h1][u]Compatibility:[/u][/h1]\r\nThe Mod has Build-in Compatibility with the following Mods.\r\n- [url=https://steamcommunity.com/workshop/filedetails/?id=463939057]Ace[/url]\r\n- [url=https://steamcommunity.com/workshop/filedetails/?id=751965892]ACRE2[/url]\r\n- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1334412770]Dual Arms - Two Primary Weapons[/url]\r\n- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1487484880]ExileMod[/url]\r\n- Should be compatible with every other mod/mission that doesn't drastically changes the Inventory.\r\n\r\n[h1][u]Known Bugs/Problems:[/u][/h1]\r\n- When you stack move magazines from a container with many (1000 or so) Magazines, the game lags for a second. This is because you can not move Magazines in Arma 3 with a script, so the mod needs to delete and readd all Magazines. I try to fix/ease this problem in the next update.\r\n- Singleplayer Equipment Menu for AI etc. at the start of the Game is not working.\r\n\r\n[h1][u]Bug Reporting:[/u][/h1]\r\n- Please provide your video resolution and interface size settings as part of your bug report if your report is ui related.\r\n- Try to reproduce the bug with all other mods except CBA disabled.\r\n- You can still report bugs only happening in combination with other mods but please try to provide as much information as possible. If possible share your modlist with me or even better the exact mod if you can identify it yourself.\r\n\r\n[h1][u]Repacking/Reupload of the Mod:[/u][/h1]\r\n- You are allowed to repack this mod as long as its not bundled into a public mod on the steam workshop or somewhere else online.\r\n- Private (aka friends only) mods on the workshop or somewhere else are allowed.\r\n\r\n[h1][u]Donations:[/u][/h1]\r\nWant to thank me and support my work with a Donation?\r\n\r\n[url=https://ko-fi.com/xaneas] [img]https://i.imgur.com/at6IvJM.png[/img] [/url]",
+                "time_created": 1649465951,
+                "time_updated": 1703457687,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 359830,
+                "favorited": 9363,
+                "lifetime_subscriptions": 504705,
+                "lifetime_favorited": 10073,
+                "views": 198004,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Character"
+                    },
+                    {
+                        "tag": "Equipment"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "450814997",
+                "result": 1,
+                "creator": "76561198198595822",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "4840892",
+                "file_url": "",
+                "hcontent_file": "8288142167768285117",
+                "preview_url": "https://images.steamusercontent.com/ugc/1014940825593906790/E3A99D3EB1031126D7FFADCF6BBDA00FAA7FAFEC/",
+                "hcontent_preview": "1014940825593906790",
+                "title": "CBA_A3",
+                "description": "[h1][b]CBA: Community Based Addons for Arma 3[/b][/h1]\r\n\r\nWhat does the name Community Base Addons mean? It is a system that:\r\n[list]\r\n[*]Offers a range of features for addon-makers and mission designers.\r\n[*]Aims to have community wide acceptance and to be used as much as possible by community addons to maintain compatibility.\r\n[*]The community is very much encouraged to request or submit functionality.\r\n[*]The most obvious example would be to submit functions to be included in the CBA function library.\r\n[/list]\r\n[u][b]Documentation[/b][/u]\r\nFull documentation is available at [url=https://cbateam.github.io/CBA_A3/docs/files/overview-txt.html]GitHub[/url] \r\n\r\n[u][b]Licensed Under GPLv2[/b][/u]\r\nAny addon which calls CBA-defined functions need not be licensed under the GPLv2\r\nor released under a free software license. Only if you are directly including CBA code\r\nin your addon's binarized PBO or redistributing a modified version of CBA itself would\r\nyour work be considered derivative and therefore be legally required to be released under\r\nthe terms of the GPL. (And there's no reason to ever do either of these.)\r\n",
+                "time_created": 1432827434,
+                "time_updated": 1775056591,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 3118419,
+                "favorited": 65432,
+                "lifetime_subscriptions": 4250065,
+                "lifetime_favorited": 71005,
+                "views": 2040245,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "450814997",
+                "result": 1,
+                "creator": "76561198198595822",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "4840892",
+                "file_url": "",
+                "hcontent_file": "8288142167768285117",
+                "preview_url": "https://images.steamusercontent.com/ugc/1014940825593906790/E3A99D3EB1031126D7FFADCF6BBDA00FAA7FAFEC/",
+                "hcontent_preview": "1014940825593906790",
+                "title": "CBA_A3",
+                "description": "[h1][b]CBA: Community Based Addons for Arma 3[/b][/h1]\r\n\r\nWhat does the name Community Base Addons mean? It is a system that:\r\n[list]\r\n[*]Offers a range of features for addon-makers and mission designers.\r\n[*]Aims to have community wide acceptance and to be used as much as possible by community addons to maintain compatibility.\r\n[*]The community is very much encouraged to request or submit functionality.\r\n[*]The most obvious example would be to submit functions to be included in the CBA function library.\r\n[/list]\r\n[u][b]Documentation[/b][/u]\r\nFull documentation is available at [url=https://cbateam.github.io/CBA_A3/docs/files/overview-txt.html]GitHub[/url] \r\n\r\n[u][b]Licensed Under GPLv2[/b][/u]\r\nAny addon which calls CBA-defined functions need not be licensed under the GPLv2\r\nor released under a free software license. Only if you are directly including CBA code\r\nin your addon's binarized PBO or redistributing a modified version of CBA itself would\r\nyour work be considered derivative and therefore be legally required to be released under\r\nthe terms of the GPL. (And there's no reason to ever do either of these.)\r\n",
+                "time_created": 1432827434,
+                "time_updated": 1775056591,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 3118419,
+                "favorited": 65432,
+                "lifetime_subscriptions": 4250065,
+                "lifetime_favorited": 71005,
+                "views": 2040245,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "837729515",
+                "result": 1,
+                "creator": "76561198038763662",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "63284",
+                "file_url": "",
+                "hcontent_file": "8113729928752847031",
+                "preview_url": "https://images.steamusercontent.com/ugc/96099157746321807/08941EED522D9ADDC27D92E2A0B669DFA5D4241C/",
+                "hcontent_preview": "96099157746321807",
+                "title": "CH View Distance",
+                "description": "This little addon allows you to flexibly adjust your view distance and terrain quality based on actual ingame situation. \r\nIt's neatly packed with features:\r\n- adjust view distance or terrain quality based on current vehicle type;\r\n- synchronize object view distance to your view distance or adjust it automatically based on your current zoom;\r\n- all settings save to profile and load seamlessly on every mission start;\r\n- supports CBA Keybindings and swift view distance change with hotkeys;\r\n- mission makers have the ability to limit maximum view distance and restrict deactivation of ground vegetation in the scenario.\r\n\r\nCBA Keybindings:\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=450814997\r\n\r\nMission version included in download files on BIS Forums:\r\nhttps://forums.bistudio.com/topic/175757-ch-view-distance-addon/\r\n\r\nIf you have any suggestions, please leave them in this thread:\r\nhttps://forums.bistudio.com/topic/175757-ch-view-distance-addon/",
+                "time_created": 1483870515,
+                "time_updated": 1486691816,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 263438,
+                "favorited": 5491,
+                "lifetime_subscriptions": 494890,
+                "lifetime_favorited": 6170,
+                "views": 145752,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "837729515",
+                "result": 1,
+                "creator": "76561198038763662",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "63284",
+                "file_url": "",
+                "hcontent_file": "8113729928752847031",
+                "preview_url": "https://images.steamusercontent.com/ugc/96099157746321807/08941EED522D9ADDC27D92E2A0B669DFA5D4241C/",
+                "hcontent_preview": "96099157746321807",
+                "title": "CH View Distance",
+                "description": "This little addon allows you to flexibly adjust your view distance and terrain quality based on actual ingame situation. \r\nIt's neatly packed with features:\r\n- adjust view distance or terrain quality based on current vehicle type;\r\n- synchronize object view distance to your view distance or adjust it automatically based on your current zoom;\r\n- all settings save to profile and load seamlessly on every mission start;\r\n- supports CBA Keybindings and swift view distance change with hotkeys;\r\n- mission makers have the ability to limit maximum view distance and restrict deactivation of ground vegetation in the scenario.\r\n\r\nCBA Keybindings:\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=450814997\r\n\r\nMission version included in download files on BIS Forums:\r\nhttps://forums.bistudio.com/topic/175757-ch-view-distance-addon/\r\n\r\nIf you have any suggestions, please leave them in this thread:\r\nhttps://forums.bistudio.com/topic/175757-ch-view-distance-addon/",
+                "time_created": 1483870515,
+                "time_updated": 1486691816,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 263438,
+                "favorited": 5491,
+                "lifetime_subscriptions": 494890,
+                "lifetime_favorited": 6170,
+                "views": 145752,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2993442344",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "62795140",
+                "file_url": "",
+                "hcontent_file": "8581987091599697148",
+                "preview_url": "https://images.steamusercontent.com/ugc/10351998624754472477/97151C84B15F520F6672C695E180BED6DD1822A4/",
+                "hcontent_preview": "10351998624754472477",
+                "title": "Death and Hit reactions",
+                "description": "Had this idea for a while. Wanted to make game just a little bit cinematic.\r\n\r\n[h1]Mod must be installed on both client and server[/h1]\r\n\r\nThis mod is also serving another purpose: to more or less syncronize ragdoll in MP environment just a little bit when death animations enabled. Because after dying units are playing an animation and only afterwards ragdoll, it allow arma to not syncronize full path of a ragdoll but only the end of it making an interpolation much smoother. It is not perfect, but still.\r\n\r\n[h1]Mod works with both ACE, PIR, Armour Plate system. Mod do not modify any damage, only adds animations and work with vanilla params. So it will be compatible with every other mod.[/h1]\r\n\r\nAditional PIR compat patch: https://steamcommunity.com/sharedfiles/filedetails/?id=3002800433\r\n\r\n[h1]So what does this mod contain in its current state?[/h1]\r\n[list]\r\n [*]  More then 70 death animations that varies on different conditions (Headshot, neckshots, grenade, crouch, high caliber,dismemberment,prone)\r\n [*] 20 hit animations \r\n[*] Options to disable certain mechanics\r\n[/list]\r\n\r\n[h1]What will be added in a nearest future?[/h1]\r\n[list]\r\n [*]  Pistol hit animations\r\n [*] QOL updates\r\n[/list]\r\n\r\n[h1]You can disable death and hit reactions on units via this command:[/h1]\r\nthis setVariable [\"WBK_DAH_DisableAnim_Death\",1]; - for death animations\r\nthis setVariable [\"WBK_DAH_DisableAnim_Hit\",1]; - for hit reactions\r\n\r\n\r\n[h1]Thats all, hope you'll like it. If you have questions, suggestions, bug reports or want to check out what i am working on now - please join my discord - https://discord.gg/UJfDvdyr7w[/h1]\r\n\r\n\r\nMain Credits:\r\n[u]Macser - For awesome ArmaRig for blender!\r\nBohemia Interactive - For awesome game and platform!\r\nMixamo and Valve - animation references\r\nMy patreons - for support. Huge thanks to you guys! You made this mod possible.\r\n[/u]",
+                "time_created": 1687523063,
+                "time_updated": 1776088292,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 202055,
+                "favorited": 8338,
+                "lifetime_subscriptions": 309618,
+                "lifetime_favorited": 8995,
+                "views": 163251,
+                "tags": [
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2993442344",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "62795140",
+                "file_url": "",
+                "hcontent_file": "8581987091599697148",
+                "preview_url": "https://images.steamusercontent.com/ugc/10351998624754472477/97151C84B15F520F6672C695E180BED6DD1822A4/",
+                "hcontent_preview": "10351998624754472477",
+                "title": "Death and Hit reactions",
+                "description": "Had this idea for a while. Wanted to make game just a little bit cinematic.\r\n\r\n[h1]Mod must be installed on both client and server[/h1]\r\n\r\nThis mod is also serving another purpose: to more or less syncronize ragdoll in MP environment just a little bit when death animations enabled. Because after dying units are playing an animation and only afterwards ragdoll, it allow arma to not syncronize full path of a ragdoll but only the end of it making an interpolation much smoother. It is not perfect, but still.\r\n\r\n[h1]Mod works with both ACE, PIR, Armour Plate system. Mod do not modify any damage, only adds animations and work with vanilla params. So it will be compatible with every other mod.[/h1]\r\n\r\nAditional PIR compat patch: https://steamcommunity.com/sharedfiles/filedetails/?id=3002800433\r\n\r\n[h1]So what does this mod contain in its current state?[/h1]\r\n[list]\r\n [*]  More then 70 death animations that varies on different conditions (Headshot, neckshots, grenade, crouch, high caliber,dismemberment,prone)\r\n [*] 20 hit animations \r\n[*] Options to disable certain mechanics\r\n[/list]\r\n\r\n[h1]What will be added in a nearest future?[/h1]\r\n[list]\r\n [*]  Pistol hit animations\r\n [*] QOL updates\r\n[/list]\r\n\r\n[h1]You can disable death and hit reactions on units via this command:[/h1]\r\nthis setVariable [\"WBK_DAH_DisableAnim_Death\",1]; - for death animations\r\nthis setVariable [\"WBK_DAH_DisableAnim_Hit\",1]; - for hit reactions\r\n\r\n\r\n[h1]Thats all, hope you'll like it. If you have questions, suggestions, bug reports or want to check out what i am working on now - please join my discord - https://discord.gg/UJfDvdyr7w[/h1]\r\n\r\n\r\nMain Credits:\r\n[u]Macser - For awesome ArmaRig for blender!\r\nBohemia Interactive - For awesome game and platform!\r\nMixamo and Valve - animation references\r\nMy patreons - for support. Huge thanks to you guys! You made this mod possible.\r\n[/u]",
+                "time_created": 1687523063,
+                "time_updated": 1776088292,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 202055,
+                "favorited": 8338,
+                "lifetime_subscriptions": 309618,
+                "lifetime_favorited": 8995,
+                "views": 163251,
+                "tags": [
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3523961062",
+                "result": 1,
+                "creator": "76561197989045585",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "361372156",
+                "file_url": "",
+                "hcontent_file": "7784401826264421538",
+                "preview_url": "https://images.steamusercontent.com/ugc/11115293210357541166/6BEA43004E380FAC362BFC15241084A1F21330C1/",
+                "hcontent_preview": "11115293210357541166",
+                "title": "Drakovac",
+                "description": "[h1]Description[/h1]\r\nBased on the Croatian island of Cres and it's two neighboring islands. Added an additional 250 islands, based on the many islands of the archipelago in Finland. Created using real heightmaps and satelitemaps that has been 'Armafied'.\r\n\r\n[b]The terrain does not need any DLC and has no dependencies.[/b]\r\n\r\n\r\n[h3]Technical details[/h3]\r\nterrain size 12288m x 12288m\r\ncell size 6\r\n\r\n2 Airports\r\n3 Runways\r\n252 Islands\r\n37 Small towns\r\n1 Big'ish town\r\nNumerous military compounds\r\nOld military pillboxes and concrete walls scattered around the peninsula and islands\r\n\r\nAround 1.05 million objects on the map placed manually with TerrainBuilder and the Plopper mod\r\n\r\n[h3]Contributors & Thank you[/h3]\r\nSwedish Strategic Group for playtesing and all the feedback.\r\nErk for creating the prison compound.\r\n\r\nMikero Tools https://mikero.bytex.digital/\r\nPMC wiki and the all the talented people behind it https://pmc.editing.wiki/\r\nArma Docs terran https://armadocs.gitlab.io/\r\nOpenTopography https://portal.opentopography.org\r\nOpenStreetMap Geofabrik http://download.geofabrik.de/\r\nLoRo over at BI forums for posting a guide on satmask BI forums [forums.bohemia.net]\r\nBohemia Interactive for their great game https://www.bohemia.net/games/arma3\r\n\r\n[h3]License:[/h3]\r\nAPL-SA: https://www.bohemia.net/community/licenses/arma-public-license-share-alike\r\n\r\n[img]https://i.imgur.com/1PYwCAn.gif[/img]",
+                "time_created": 1752350591,
+                "time_updated": 1754252901,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 20586,
+                "favorited": 2208,
+                "lifetime_subscriptions": 33700,
+                "lifetime_favorited": 2322,
+                "views": 50612,
+                "tags": [
+                    {
+                        "tag": "Terrain"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3523961062",
+                "result": 1,
+                "creator": "76561197989045585",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "361372156",
+                "file_url": "",
+                "hcontent_file": "7784401826264421538",
+                "preview_url": "https://images.steamusercontent.com/ugc/11115293210357541166/6BEA43004E380FAC362BFC15241084A1F21330C1/",
+                "hcontent_preview": "11115293210357541166",
+                "title": "Drakovac",
+                "description": "[h1]Description[/h1]\r\nBased on the Croatian island of Cres and it's two neighboring islands. Added an additional 250 islands, based on the many islands of the archipelago in Finland. Created using real heightmaps and satelitemaps that has been 'Armafied'.\r\n\r\n[b]The terrain does not need any DLC and has no dependencies.[/b]\r\n\r\n\r\n[h3]Technical details[/h3]\r\nterrain size 12288m x 12288m\r\ncell size 6\r\n\r\n2 Airports\r\n3 Runways\r\n252 Islands\r\n37 Small towns\r\n1 Big'ish town\r\nNumerous military compounds\r\nOld military pillboxes and concrete walls scattered around the peninsula and islands\r\n\r\nAround 1.05 million objects on the map placed manually with TerrainBuilder and the Plopper mod\r\n\r\n[h3]Contributors & Thank you[/h3]\r\nSwedish Strategic Group for playtesing and all the feedback.\r\nErk for creating the prison compound.\r\n\r\nMikero Tools https://mikero.bytex.digital/\r\nPMC wiki and the all the talented people behind it https://pmc.editing.wiki/\r\nArma Docs terran https://armadocs.gitlab.io/\r\nOpenTopography https://portal.opentopography.org\r\nOpenStreetMap Geofabrik http://download.geofabrik.de/\r\nLoRo over at BI forums for posting a guide on satmask BI forums [forums.bohemia.net]\r\nBohemia Interactive for their great game https://www.bohemia.net/games/arma3\r\n\r\n[h3]License:[/h3]\r\nAPL-SA: https://www.bohemia.net/community/licenses/arma-public-license-share-alike\r\n\r\n[img]https://i.imgur.com/1PYwCAn.gif[/img]",
+                "time_created": 1752350591,
+                "time_updated": 1754252901,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 20586,
+                "favorited": 2208,
+                "lifetime_subscriptions": 33700,
+                "lifetime_favorited": 2322,
+                "views": 50612,
+                "tags": [
+                    {
+                        "tag": "Terrain"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3435581126",
+                "result": 1,
+                "creator": "76561197989839541",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "55952",
+                "file_url": "",
+                "hcontent_file": "3422303905627012965",
+                "preview_url": "https://images.steamusercontent.com/ugc/13962382588147714665/190284E616046B14DE7978BE440A7B0F63CB100F/",
+                "hcontent_preview": "13962382588147714665",
+                "title": "Drongos Grenade Tweaks",
+                "description": "AI are much more likely to use hand-grenades, grenade launchers, RPG-7s, RPG-32 and MRAWs against infantry. Grenade damage radius is increased by about 50%.\r\n\r\nIt is recommended you test with no other mods loaded first.\r\n\r\n[url=https://drive.google.com/file/d/1mNEsvi7MlxvbmaHYVXEsr7TzyQokddHh/view?usp=sharing]Source for easy editing[/url]\r\n\r\nOVERVIEW\r\nThis mod tweaks vanilla configs for the following effects:\r\n\r\nGrenades and RPG-7s have had their indirect damage radius increased by about 50%\r\nAI are much more likely to use hand grenades\r\nAI are much more likely to use grenade launchers\r\nAI are much more likely to use RPG-7s against infantry, vehicles and aircraft\r\nAI are much more likely to use MRAW and RPG-32 HE rounds against infantry, vehicles and aircraft\r\n\r\nThe design philosphy is for AI to \"use it or lose it\". Too often AI with explosive weapons are just ammo crates with a rifle. This mod leans into making AI grenade and launcher use very common rather than restrained.\r\n\r\n\r\nNOTES\r\nThis mod only addresses vanilla assets and assets that inherit the same values.\r\nSometimes AI will use a grenade when they should have used a rifle instead.\r\nIf LAMBS Danger is present, a slightly different config will load.\r\nLAMBS RPG will overwrite some parts of this mod.\r\nThe mod consists of a single fairly straightforward and config.cpp with some documentation. Making your own version to suit your own preferences is encouraged.\r\n\r\n\r\nLICENSE\r\nhttps://www.bohemia.net/community/licenses/arma-public-license-share-alike\r\n\r\nIn addition, nobody associated with tier1ops.eu may use, edit or distribute this mod or any derivatives thereof.\r\n\r\nIf you need an exception to this license, contact me.\r\n\r\n\r\nCREDITS\r\nDrongo:   Concept and coding\r\n\r\n\r\nTHEFT OF MY WORK\r\nMy artillery mod was stolen, edited and re-released in violation of the license by BlackAlpha of tier1ops.eu. Here is a video showing my original work and his stolen edit:\r\n\r\nhttps://www.youtube.com/watch?v=Oe7G6WwxQVU\r\n\r\nPlease share this video and let the community know that BlackAlpha and tier1ops.eu are thieves.\r\n\r\n\r\nCHANGELOG\r\nv0.13\r\nIncreased minimum range for hand grenades\r\nSlightly decreased chance of hand grenade use",
+                "time_created": 1740737515,
+                "time_updated": 1772923266,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 7840,
+                "favorited": 682,
+                "lifetime_subscriptions": 12720,
+                "lifetime_favorited": 741,
+                "views": 19552,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3435581126",
+                "result": 1,
+                "creator": "76561197989839541",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "55952",
+                "file_url": "",
+                "hcontent_file": "3422303905627012965",
+                "preview_url": "https://images.steamusercontent.com/ugc/13962382588147714665/190284E616046B14DE7978BE440A7B0F63CB100F/",
+                "hcontent_preview": "13962382588147714665",
+                "title": "Drongos Grenade Tweaks",
+                "description": "AI are much more likely to use hand-grenades, grenade launchers, RPG-7s, RPG-32 and MRAWs against infantry. Grenade damage radius is increased by about 50%.\r\n\r\nIt is recommended you test with no other mods loaded first.\r\n\r\n[url=https://drive.google.com/file/d/1mNEsvi7MlxvbmaHYVXEsr7TzyQokddHh/view?usp=sharing]Source for easy editing[/url]\r\n\r\nOVERVIEW\r\nThis mod tweaks vanilla configs for the following effects:\r\n\r\nGrenades and RPG-7s have had their indirect damage radius increased by about 50%\r\nAI are much more likely to use hand grenades\r\nAI are much more likely to use grenade launchers\r\nAI are much more likely to use RPG-7s against infantry, vehicles and aircraft\r\nAI are much more likely to use MRAW and RPG-32 HE rounds against infantry, vehicles and aircraft\r\n\r\nThe design philosphy is for AI to \"use it or lose it\". Too often AI with explosive weapons are just ammo crates with a rifle. This mod leans into making AI grenade and launcher use very common rather than restrained.\r\n\r\n\r\nNOTES\r\nThis mod only addresses vanilla assets and assets that inherit the same values.\r\nSometimes AI will use a grenade when they should have used a rifle instead.\r\nIf LAMBS Danger is present, a slightly different config will load.\r\nLAMBS RPG will overwrite some parts of this mod.\r\nThe mod consists of a single fairly straightforward and config.cpp with some documentation. Making your own version to suit your own preferences is encouraged.\r\n\r\n\r\nLICENSE\r\nhttps://www.bohemia.net/community/licenses/arma-public-license-share-alike\r\n\r\nIn addition, nobody associated with tier1ops.eu may use, edit or distribute this mod or any derivatives thereof.\r\n\r\nIf you need an exception to this license, contact me.\r\n\r\n\r\nCREDITS\r\nDrongo:   Concept and coding\r\n\r\n\r\nTHEFT OF MY WORK\r\nMy artillery mod was stolen, edited and re-released in violation of the license by BlackAlpha of tier1ops.eu. Here is a video showing my original work and his stolen edit:\r\n\r\nhttps://www.youtube.com/watch?v=Oe7G6WwxQVU\r\n\r\nPlease share this video and let the community know that BlackAlpha and tier1ops.eu are thieves.\r\n\r\n\r\nCHANGELOG\r\nv0.13\r\nIncreased minimum range for hand grenades\r\nSlightly decreased chance of hand grenade use",
+                "time_created": 1740737515,
+                "time_updated": 1772923266,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 7840,
+                "favorited": 682,
+                "lifetime_subscriptions": 12720,
+                "lifetime_favorited": 741,
+                "views": 19552,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3346427969",
+                "result": 1,
+                "creator": "76561198219466935",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "2359167",
+                "file_url": "",
+                "hcontent_file": "7652118078680427451",
+                "preview_url": "https://images.steamusercontent.com/ugc/14158265354810508739/A08B6A5844F488C4B2D501AE8513B80A1AB91D44/",
+                "hcontent_preview": "14158265354810508739",
+                "title": "Hide Among The Grass - HATG",
+                "description": "[url=https://github.com/SilenceIsFatto/HATG][img]https://i.imgur.com/sRVM4Ws.png[/img][/url]\r\nHide Among The Grass (HATG) is a performance-focused solution to all things stealth.\r\n\r\nThis mod was originally designed as an alternative to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946868556]ACSTG[/url] but we very quickly realised we could do more.\r\n\r\nYou will only be hidden when prone or crouched (and standing, if in a building). A variety of factors apply, such as enemies being close or what surface you are on. These can all be configured!\r\n\r\nOther AI mods should be compatible. This mod does not touch AI behaviour, it functions around the way AI \"sees\".\r\n\r\n[h1]Features[/h1]\r\n[list]\r\n[*][i]The ability to hide among the grass.[/i]\r\n\r\n[*][i]The ability to revamp your stealth gameplay. Ever wanted a ghillie suit to actually stop the AI from seeing you? Now it does.[/i]\r\n\r\n[*][i]A logical and simplistic approach to concealment. Shooting from afar with a suppressor? You'll remain hidden for longer.[/i]\r\n\r\n[*][i]A minimalistic UI to help you know when you are hidden or not. This is ON by default. If you prefer a more \"realistic\" setting, you can turn it off in the settings.[/i]\r\n\r\n[*][i]A \"simple mode\" setting so you don't have to worry about configuring settings one by one.[/i]\r\n\r\n[*][i]Environmental consideration. During the night or if it is raining/foggy, detection distance will be lowered.[/i]\r\n\r\n[*][i]Flexible CBA settings, allowing you to change just about anything in the mod.[/i]\r\n\r\n[*][i]Singleplayer support. Your AI squad will have the same stealth possibilities as you do! (Only in SP)[/i]\r\n\r\n[*][i]Localization. Note: Only English and Russian have been translated by humans. Feel free to check out our github at the bottom of the page and fix any translation errors![/i]\r\n[/list]\r\n\r\n[h1]Questions[/h1]\r\n[list]\r\n[*][b]\"Why can't I do X or Y when I'm hidden?\"[/b]\r\n\r\nThis is due to engine limitations. You can bind a key to toggle HATG functionality on/off when you need.\r\n\r\n[*][b]\"What's the difference between this mod and ACSTG?\"[/b]\r\n\r\nThe main difference between HATG and ACSTG is: \r\nHATG is [i]faster[/i] and [i]better for performance[/i].\r\n\r\nThis is by no means a jab at ACSTG - this idea came from ACSTG and I think parts of their solution are quite smart but lack optimization.\r\n\r\nRead the [url=https://github.com/SilenceIsFatto/HATG/blob/main/README.md]github[/url] for more information about ACSTG vs HATG performance if you wish.\r\n\r\n[*][b]\"Is this mod compatible with X?\"[/b]\r\n\r\nGenerally, yes. This mod was actually designed and heavily tested on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032]Antistasi Ultimate[/url] with the help of the [url=https://discord.gg/antistasiultimate]Antistasi Ultimate Community[/url].\r\n\r\nIt is not advised to run this mod with ACSTG. HATG and ACSTG both achieve similar things and may conflict.\r\n\r\n[*][b]\"Is this mod clientside?\"[/b]\r\n\r\nNo. HATG uses a custom object which needs to be available on the server or else it will not block AI vision.\r\n\r\nThis may be possible in the future in which a different method will be used if the server does not have HATG.\r\n\r\n[*][b]\"How does this mod work?\"[/b]\r\n\r\nWhen you meet the requirements to be \"hidden\", a box is created and attached to you.\r\n\r\nThis box prevents the AI from seeing you.\r\n[/list]\r\n\r\n[h1]Notes[/h1]\r\n\r\nCommon Issues:\r\n- \"I can't see the UI, even though it is on\"\r\n> You may have to change the UI Y position in the addon options.\r\n\r\n- \"The mod is preventing me from interacting with things, etc\"\r\n> Bind the \"Toggle HATG\" keybind and use it to disable the mod when you need to.\r\n\r\nSpecial thanks to:\r\n- stutpip123 for giving the \"mirror\" idea and allowing us to extensively test this on his servers.\r\n- The [url=https://discord.gg/antistasiultimate]Antistasi Ultimate Community[/url] for putting up with our testing and debugging.\r\n- ACSTG for the inspiration to start this project.\r\n\r\nOur aim is to allow this mod to be further developed by the community if they wish, GitHub link below.\r\n[url=https://github.com/SilenceIsFatto/HATG][img]https://i.imgur.com/z9xYpjf.png[/img][/url]\r\n[url=https://github.com/sponsors/SilenceIsFatto][img]https://i.imgur.com/hD8yyCQ.png[/img][/url]\r\n[url=https://ko-fi.com/silence112][img]https://i.imgur.com/RmlMO5p.png[/img][/url]\r\n\r\n\r\nThis mod is licensed under the APL-SA License.\r\nAll we ask is that you remain fair, maintain a list of every contributor, refrain from altering the license and include a link back to this page if you decide to redistribute.\r\n[url=https://www.bohemia.net/community/licenses/arma-public-license-share-alike][img]https://i.imgur.com/JQkA9bA.png[/img][/url]",
+                "time_created": 1728585398,
+                "time_updated": 1770665337,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 89000,
+                "favorited": 3834,
+                "lifetime_subscriptions": 125236,
+                "lifetime_favorited": 4090,
+                "views": 94368,
+                "tags": [
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3346427969",
+                "result": 1,
+                "creator": "76561198219466935",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "2359167",
+                "file_url": "",
+                "hcontent_file": "7652118078680427451",
+                "preview_url": "https://images.steamusercontent.com/ugc/14158265354810508739/A08B6A5844F488C4B2D501AE8513B80A1AB91D44/",
+                "hcontent_preview": "14158265354810508739",
+                "title": "Hide Among The Grass - HATG",
+                "description": "[url=https://github.com/SilenceIsFatto/HATG][img]https://i.imgur.com/sRVM4Ws.png[/img][/url]\r\nHide Among The Grass (HATG) is a performance-focused solution to all things stealth.\r\n\r\nThis mod was originally designed as an alternative to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946868556]ACSTG[/url] but we very quickly realised we could do more.\r\n\r\nYou will only be hidden when prone or crouched (and standing, if in a building). A variety of factors apply, such as enemies being close or what surface you are on. These can all be configured!\r\n\r\nOther AI mods should be compatible. This mod does not touch AI behaviour, it functions around the way AI \"sees\".\r\n\r\n[h1]Features[/h1]\r\n[list]\r\n[*][i]The ability to hide among the grass.[/i]\r\n\r\n[*][i]The ability to revamp your stealth gameplay. Ever wanted a ghillie suit to actually stop the AI from seeing you? Now it does.[/i]\r\n\r\n[*][i]A logical and simplistic approach to concealment. Shooting from afar with a suppressor? You'll remain hidden for longer.[/i]\r\n\r\n[*][i]A minimalistic UI to help you know when you are hidden or not. This is ON by default. If you prefer a more \"realistic\" setting, you can turn it off in the settings.[/i]\r\n\r\n[*][i]A \"simple mode\" setting so you don't have to worry about configuring settings one by one.[/i]\r\n\r\n[*][i]Environmental consideration. During the night or if it is raining/foggy, detection distance will be lowered.[/i]\r\n\r\n[*][i]Flexible CBA settings, allowing you to change just about anything in the mod.[/i]\r\n\r\n[*][i]Singleplayer support. Your AI squad will have the same stealth possibilities as you do! (Only in SP)[/i]\r\n\r\n[*][i]Localization. Note: Only English and Russian have been translated by humans. Feel free to check out our github at the bottom of the page and fix any translation errors![/i]\r\n[/list]\r\n\r\n[h1]Questions[/h1]\r\n[list]\r\n[*][b]\"Why can't I do X or Y when I'm hidden?\"[/b]\r\n\r\nThis is due to engine limitations. You can bind a key to toggle HATG functionality on/off when you need.\r\n\r\n[*][b]\"What's the difference between this mod and ACSTG?\"[/b]\r\n\r\nThe main difference between HATG and ACSTG is: \r\nHATG is [i]faster[/i] and [i]better for performance[/i].\r\n\r\nThis is by no means a jab at ACSTG - this idea came from ACSTG and I think parts of their solution are quite smart but lack optimization.\r\n\r\nRead the [url=https://github.com/SilenceIsFatto/HATG/blob/main/README.md]github[/url] for more information about ACSTG vs HATG performance if you wish.\r\n\r\n[*][b]\"Is this mod compatible with X?\"[/b]\r\n\r\nGenerally, yes. This mod was actually designed and heavily tested on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032]Antistasi Ultimate[/url] with the help of the [url=https://discord.gg/antistasiultimate]Antistasi Ultimate Community[/url].\r\n\r\nIt is not advised to run this mod with ACSTG. HATG and ACSTG both achieve similar things and may conflict.\r\n\r\n[*][b]\"Is this mod clientside?\"[/b]\r\n\r\nNo. HATG uses a custom object which needs to be available on the server or else it will not block AI vision.\r\n\r\nThis may be possible in the future in which a different method will be used if the server does not have HATG.\r\n\r\n[*][b]\"How does this mod work?\"[/b]\r\n\r\nWhen you meet the requirements to be \"hidden\", a box is created and attached to you.\r\n\r\nThis box prevents the AI from seeing you.\r\n[/list]\r\n\r\n[h1]Notes[/h1]\r\n\r\nCommon Issues:\r\n- \"I can't see the UI, even though it is on\"\r\n> You may have to change the UI Y position in the addon options.\r\n\r\n- \"The mod is preventing me from interacting with things, etc\"\r\n> Bind the \"Toggle HATG\" keybind and use it to disable the mod when you need to.\r\n\r\nSpecial thanks to:\r\n- stutpip123 for giving the \"mirror\" idea and allowing us to extensively test this on his servers.\r\n- The [url=https://discord.gg/antistasiultimate]Antistasi Ultimate Community[/url] for putting up with our testing and debugging.\r\n- ACSTG for the inspiration to start this project.\r\n\r\nOur aim is to allow this mod to be further developed by the community if they wish, GitHub link below.\r\n[url=https://github.com/SilenceIsFatto/HATG][img]https://i.imgur.com/z9xYpjf.png[/img][/url]\r\n[url=https://github.com/sponsors/SilenceIsFatto][img]https://i.imgur.com/hD8yyCQ.png[/img][/url]\r\n[url=https://ko-fi.com/silence112][img]https://i.imgur.com/RmlMO5p.png[/img][/url]\r\n\r\n\r\nThis mod is licensed under the APL-SA License.\r\nAll we ask is that you remain fair, maintain a list of every contributor, refrain from altering the license and include a link back to this page if you decide to redistribute.\r\n[url=https://www.bohemia.net/community/licenses/arma-public-license-share-alike][img]https://i.imgur.com/JQkA9bA.png[/img][/url]",
+                "time_created": 1728585398,
+                "time_updated": 1770665337,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 89000,
+                "favorited": 3834,
+                "lifetime_subscriptions": 125236,
+                "lifetime_favorited": 4090,
+                "views": 94368,
+                "tags": [
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3407970596",
+                "result": 9
+            },
+            {
+                "publishedfileid": "3407970596",
+                "result": 9
+            },
+            {
+                "publishedfileid": "3407948300",
+                "result": 1,
+                "creator": "76561197972238697",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "3933952072",
+                "file_url": "",
+                "hcontent_file": "578152308862912122",
+                "preview_url": "https://images.steamusercontent.com/ugc/17576431380056934545/F4101D4A7CABF11DC0FC877A13E7CBA2C0EB8B7C/",
+                "hcontent_preview": "17576431380056934545",
+                "title": "JSRS SOUNDMOD 2025",
+                "description": "[b][h1]Welcome to a next era of immersive sound for Arma 3![/h1][/b]\r\nJSRS SOUNDMOD 2025 takes the audio experience to the new level, setting new standards for authenticity and creating a seamless, all-encompassing soundscape.\r\n\r\n🌟 [b]What is it?[/b]\r\n[b]JSRS SOUNDMOD 2025[/b] is the evolution of the beloved soundmod, delivering a revamped and modernized sound environment for Arma 3. The focus is on creating a unified and immersive soundscape for all assets.\r\n\r\n[list]\r\n[*][b]Completely reworked weapon sound architecture[/b]\r\nWeapons now operate on a clean [i]Shot + Tail[/i] system with clearly separated positioning and spatialization.\r\nThis drastically reduces clutter while improving clarity, punch and distance perception.\r\n\r\n[*][b]Advanced Tail & Distance System[/b]\r\nA fully rebuilt tail system with refined fade behavior, spatial depth and environmental response.\r\nNo artificial layering, no stereo gimmicks — just controlled, believable distance acoustics.\r\n\r\n[*][b]EVR – Environmental Vehicle Reverberation[/b]\r\nA new vehicle audio layer simulating reflected pressure and environmental response.\r\nAdds mass, scale and presence to helicopters and jets — without relying on obstruction tricks.\r\n\r\n[*][b]Expanded Movement & Interaction Audio[/b]\r\nNew dedicated sounds for tactical movement, ADS, leaning, inventory, map interaction and NVG usage.\r\nSlow movement is now genuinely quiet — sprinting and panic movement are not.\r\n\r\n[*][b]Biome & Atmospheric Soundscape[/b]\r\nDistinct audio layers for Nordic, Boreal, Winter, Savanna, Temperate Europe, Jungle and Tropic environments.\r\nIncludes wildlife, wind, weather and terrain-dependent ambience.\r\n\r\n[*][b]Enhanced Soundscape Integration[/b]\r\nGunfire dynamically echoes off of distant hills and mountain areas, adding natural reflections and depth based on terrain.\r\n\r\n[*][b]Modernized Audio Pipeline[/b]\r\nInternally rebuilt configs, naming structure and build pipeline (HEMTT-based) for long-term stability, scalability and maintainability.\r\n[/list]\r\n\r\n[b]This is not just louder sound.[/b]\r\n[b]It is a cleaner, more controlled and more physically grounded audio system for Arma 3.[/b]\r\n\r\n[b]Dev Branch–Only Features (Not available on Stable)[/b]\r\n\r\n[list]\r\n[*][b]Interior Explosion Sounds[/b]\r\nExplosions that occur inside buildings use a dedicated interior acoustic model, including enclosed pressure response and reduced exterior bleed.\r\nThis feature relies on engine-side functionality that is currently only available on the Dev / Profiling branch.\r\n\r\n[*][b]Dynamic Ducking System[/b]\r\nA real-time ducking effect based on the newer xAudio backend, allowing weapons and explosions to naturally push back environmental sounds.\r\nThis improves clarity, punch and overall mix control, but is not supported by the Stable branch audio driver.\r\n[/list]\r\n\r\nThese features are therefore [b]exclusive to the Dev Build[/b].\r\nIf Bohemia Interactive reverts the newer xAudio backend, the ducking system will be affected accordingly.\r\n\r\n📥 [b]How to Install and Use:[/b]\r\nEasy as always:[list]\r\n[*]Subscribe to JSRS Soundmod 2025 (Beta RC3)\r\n[*]Activate the mod in the launcher and enjoy[/list]\r\n\r\n\r\n🚧 [b]Important Notes:[/b]\r\nFrequent updates are based on your feedback! Join the discussion to shape the mod's future. Support on Patreon for [b]exclusive access to development builds and direct involvement in new features.[/b]\r\n\r\n[b]All-in-One Compatibility Integration[/b]\r\nThe previously separate AiO Compatibility Pack is now fully integrated into this release.\r\nAll supported compatibility modules are included by default.\r\n\r\n[list]\r\n[*]No additional downloads required\r\n[*]Compatibility is handled internally by JSRS\r\n[/list]\r\n\r\nIf you do [b]not[/b] want to use certain compatibility modules, you can safely remove them manually:\r\n\r\n[i]jsrs2025\\addons\\compat_xyz[/i]\r\n\r\nSimply delete the corresponding compat addon pbo and bisign files for the mod you don’t want to covered by JSRS.\r\nThis allows full control over which integrations are active without affecting the core mod.\r\n\r\n\r\n🔗 [b]Links to Discord and Patreon:[/b]\r\n[b][url=https://discord.gg/A4vfJ9ZPBW]JSRS Soundmod 2025 Discord Server[/url][/b]\r\n[img]https://i.imgur.com/KsoQMCF.png[/img]\r\n\r\nYour feedback, bug reports, and suggestions are greatly appreciated! Thank you for your support, which makes JSRS Soundmod possible.\r\n\r\n[b][url=https://www.patreon.com/c/lordjarhead/membership]JSRS Soundmod Patreon Support[/url][/b]\r\n[img]https://i.imgur.com/ojB8XW5.jpeg[/img]\r\n\r\nBecome an [b]Operator[/b] and join the frontlines of development! As an Operator, you'll gain exclusive access to:[list]\r\n[b]Dev Builds[/b]: Test new features and updates.\r\n[*][b]Active Development Participation[/b]: Provide valuable feedback to shape the future of the mod.\r\n[*][b]Exclusive Discord Role[/b]: Stand out in the community and unlock Patreon-only channels.\r\n[*][b]Priority Support[/b]: Get prioritized responses to your questions and suggestions.[/list]\r\n\r\nYour contribution of $5/month not only supports the mod's continued growth but makes you an essential part of its evolution. If you enjoy my work and would like to support me, any donation is greatly appreciated. Your contributions help me keep the mod updated, improve it further, and continue its development.\r\n\r\n[b][url=https://www.paypal.com/donate/?hosted_button_id=3Z33FTF4R4V9W]Paypal[/url][/b]\r\n[b][url=https://www.patreon.com/c/LordJarhead]Patreon[/url][/b]\r\n\r\n\r\n[b]Thank you for your support! ❤️[/b]\r\n[img]https://c.tenor.com/nIEk7Uxg6JcAAAAd/tenor.gif[/img]\r\n\r\n[b][url=https://www.instagram.com/denniskahl1497]Folloow me on Instagram![/url][/b]\r\n\r\n[h2]Special Thanks[/h2]\r\n\r\n[list]\r\n[*][b]joko dont ask me anything (jokoho482)[/b]\r\nFor massive technical support, scripting help and the full migration of JSRS 2025 from pboProject to HEMTT.\r\nWithout this help, several core systems and recent build changes simply wouldn’t have been possible.\r\n\r\n[*][b]LAxemann[/b]\r\nFor long-term inspiration, knowledge sharing and pushing Arma audio forward over many years.\r\nYour work and approach continue to influence how immersive sound design in Arma can and will be done.\r\n\r\n[*][b]My wife[/b]\r\nFor giving me the time, space and understanding to work on this project — especially during intense development phases.\r\nNone of this would exist without that freedom and support.\r\n[/list]\r\n\r\nEnjoy the enhanced sound experience! 🎶\r\n[b]Dennis (LordJarhead) \r\nCreator of JSRS-Soundmod[/b]\r\n\r\n[h1][b][url=https://www.bohemia.net/community/licenses/arma-public-license-nd]License Arma Public License No Derivatives (APL-ND)[/url][/b][/h1]\r\n",
+                "time_created": 1736945628,
+                "time_updated": 1774506462,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 159739,
+                "favorited": 4943,
+                "lifetime_subscriptions": 204539,
+                "lifetime_favorited": 5229,
+                "views": 126663,
+                "tags": [
+                    {
+                        "tag": "Sound"
+                    },
+                    {
+                        "tag": "KartsDLC"
+                    },
+                    {
+                        "tag": "MarksmenDLC"
+                    },
+                    {
+                        "tag": "HelicoptersDLC"
+                    },
+                    {
+                        "tag": "Apex"
+                    },
+                    {
+                        "tag": "Jets"
+                    },
+                    {
+                        "tag": "Malden"
+                    },
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Tag Review"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3407948300",
+                "result": 1,
+                "creator": "76561197972238697",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "3933952072",
+                "file_url": "",
+                "hcontent_file": "578152308862912122",
+                "preview_url": "https://images.steamusercontent.com/ugc/17576431380056934545/F4101D4A7CABF11DC0FC877A13E7CBA2C0EB8B7C/",
+                "hcontent_preview": "17576431380056934545",
+                "title": "JSRS SOUNDMOD 2025",
+                "description": "[b][h1]Welcome to a next era of immersive sound for Arma 3![/h1][/b]\r\nJSRS SOUNDMOD 2025 takes the audio experience to the new level, setting new standards for authenticity and creating a seamless, all-encompassing soundscape.\r\n\r\n🌟 [b]What is it?[/b]\r\n[b]JSRS SOUNDMOD 2025[/b] is the evolution of the beloved soundmod, delivering a revamped and modernized sound environment for Arma 3. The focus is on creating a unified and immersive soundscape for all assets.\r\n\r\n[list]\r\n[*][b]Completely reworked weapon sound architecture[/b]\r\nWeapons now operate on a clean [i]Shot + Tail[/i] system with clearly separated positioning and spatialization.\r\nThis drastically reduces clutter while improving clarity, punch and distance perception.\r\n\r\n[*][b]Advanced Tail & Distance System[/b]\r\nA fully rebuilt tail system with refined fade behavior, spatial depth and environmental response.\r\nNo artificial layering, no stereo gimmicks — just controlled, believable distance acoustics.\r\n\r\n[*][b]EVR – Environmental Vehicle Reverberation[/b]\r\nA new vehicle audio layer simulating reflected pressure and environmental response.\r\nAdds mass, scale and presence to helicopters and jets — without relying on obstruction tricks.\r\n\r\n[*][b]Expanded Movement & Interaction Audio[/b]\r\nNew dedicated sounds for tactical movement, ADS, leaning, inventory, map interaction and NVG usage.\r\nSlow movement is now genuinely quiet — sprinting and panic movement are not.\r\n\r\n[*][b]Biome & Atmospheric Soundscape[/b]\r\nDistinct audio layers for Nordic, Boreal, Winter, Savanna, Temperate Europe, Jungle and Tropic environments.\r\nIncludes wildlife, wind, weather and terrain-dependent ambience.\r\n\r\n[*][b]Enhanced Soundscape Integration[/b]\r\nGunfire dynamically echoes off of distant hills and mountain areas, adding natural reflections and depth based on terrain.\r\n\r\n[*][b]Modernized Audio Pipeline[/b]\r\nInternally rebuilt configs, naming structure and build pipeline (HEMTT-based) for long-term stability, scalability and maintainability.\r\n[/list]\r\n\r\n[b]This is not just louder sound.[/b]\r\n[b]It is a cleaner, more controlled and more physically grounded audio system for Arma 3.[/b]\r\n\r\n[b]Dev Branch–Only Features (Not available on Stable)[/b]\r\n\r\n[list]\r\n[*][b]Interior Explosion Sounds[/b]\r\nExplosions that occur inside buildings use a dedicated interior acoustic model, including enclosed pressure response and reduced exterior bleed.\r\nThis feature relies on engine-side functionality that is currently only available on the Dev / Profiling branch.\r\n\r\n[*][b]Dynamic Ducking System[/b]\r\nA real-time ducking effect based on the newer xAudio backend, allowing weapons and explosions to naturally push back environmental sounds.\r\nThis improves clarity, punch and overall mix control, but is not supported by the Stable branch audio driver.\r\n[/list]\r\n\r\nThese features are therefore [b]exclusive to the Dev Build[/b].\r\nIf Bohemia Interactive reverts the newer xAudio backend, the ducking system will be affected accordingly.\r\n\r\n📥 [b]How to Install and Use:[/b]\r\nEasy as always:[list]\r\n[*]Subscribe to JSRS Soundmod 2025 (Beta RC3)\r\n[*]Activate the mod in the launcher and enjoy[/list]\r\n\r\n\r\n🚧 [b]Important Notes:[/b]\r\nFrequent updates are based on your feedback! Join the discussion to shape the mod's future. Support on Patreon for [b]exclusive access to development builds and direct involvement in new features.[/b]\r\n\r\n[b]All-in-One Compatibility Integration[/b]\r\nThe previously separate AiO Compatibility Pack is now fully integrated into this release.\r\nAll supported compatibility modules are included by default.\r\n\r\n[list]\r\n[*]No additional downloads required\r\n[*]Compatibility is handled internally by JSRS\r\n[/list]\r\n\r\nIf you do [b]not[/b] want to use certain compatibility modules, you can safely remove them manually:\r\n\r\n[i]jsrs2025\\addons\\compat_xyz[/i]\r\n\r\nSimply delete the corresponding compat addon pbo and bisign files for the mod you don’t want to covered by JSRS.\r\nThis allows full control over which integrations are active without affecting the core mod.\r\n\r\n\r\n🔗 [b]Links to Discord and Patreon:[/b]\r\n[b][url=https://discord.gg/A4vfJ9ZPBW]JSRS Soundmod 2025 Discord Server[/url][/b]\r\n[img]https://i.imgur.com/KsoQMCF.png[/img]\r\n\r\nYour feedback, bug reports, and suggestions are greatly appreciated! Thank you for your support, which makes JSRS Soundmod possible.\r\n\r\n[b][url=https://www.patreon.com/c/lordjarhead/membership]JSRS Soundmod Patreon Support[/url][/b]\r\n[img]https://i.imgur.com/ojB8XW5.jpeg[/img]\r\n\r\nBecome an [b]Operator[/b] and join the frontlines of development! As an Operator, you'll gain exclusive access to:[list]\r\n[b]Dev Builds[/b]: Test new features and updates.\r\n[*][b]Active Development Participation[/b]: Provide valuable feedback to shape the future of the mod.\r\n[*][b]Exclusive Discord Role[/b]: Stand out in the community and unlock Patreon-only channels.\r\n[*][b]Priority Support[/b]: Get prioritized responses to your questions and suggestions.[/list]\r\n\r\nYour contribution of $5/month not only supports the mod's continued growth but makes you an essential part of its evolution. If you enjoy my work and would like to support me, any donation is greatly appreciated. Your contributions help me keep the mod updated, improve it further, and continue its development.\r\n\r\n[b][url=https://www.paypal.com/donate/?hosted_button_id=3Z33FTF4R4V9W]Paypal[/url][/b]\r\n[b][url=https://www.patreon.com/c/LordJarhead]Patreon[/url][/b]\r\n\r\n\r\n[b]Thank you for your support! ❤️[/b]\r\n[img]https://c.tenor.com/nIEk7Uxg6JcAAAAd/tenor.gif[/img]\r\n\r\n[b][url=https://www.instagram.com/denniskahl1497]Followw me on Instagram![/url][/b]\r\n\r\n[h2]Special Thanks[/h2]\r\n\r\n[list]\r\n[*][b]joko dont ask me anything (jokoho482)[/b]\r\nFor massive technical support, scripting help and the full migration of JSRS 2025 from pboProject to HEMTT.\r\nWithout this help, several core systems and recent build changes simply wouldn’t have been possible.\r\n\r\n[*][b]LAxemann[/b]\r\nFor long-term inspiration, knowledge sharing and pushing Arma audio forward over many years.\r\nYour work and approach continue to influence how immersive sound design in Arma can and will be done.\r\n\r\n[*][b]My wife[/b]\r\nFor giving me the time, space and understanding to work on this project — especially during intense development phases.\r\nNone of this would exist without that freedom and support.\r\n[/list]\r\n\r\nEnjoy the enhanced sound experience! 🎶\r\n[b]Dennis (LordJarhead) \r\nCreator of JSRS-Soundmod[/b]\r\n\r\n[h1][b][url=https://www.bohemia.net/community/licenses/arma-public-license-nd]License Arma Public License No Derivatives (APL-ND)[/url][/b][/h1]\r\n",
+                "time_created": 1736945628,
+                "time_updated": 1774506462,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 159739,
+                "favorited": 4943,
+                "lifetime_subscriptions": 204539,
+                "lifetime_favorited": 5229,
+                "views": 126663,
+                "tags": [
+                    {
+                        "tag": "Sound"
+                    },
+                    {
+                        "tag": "KartsDLC"
+                    },
+                    {
+                        "tag": "MarksmenDLC"
+                    },
+                    {
+                        "tag": "HelicoptersDLC"
+                    },
+                    {
+                        "tag": "Apex"
+                    },
+                    {
+                        "tag": "Jets"
+                    },
+                    {
+                        "tag": "Malden"
+                    },
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Tag Review"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "1956984634",
+                "result": 1,
+                "creator": "76561198047300042",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "89097109",
+                "file_url": "",
+                "hcontent_file": "7936937048418421528",
+                "preview_url": "https://images.steamusercontent.com/ugc/1495711627407035001/798F8261F8E7E2A3E05F5CD54D2144350766305C/",
+                "hcontent_preview": "1495711627407035001",
+                "title": "New CSAT (Overhaul) DVK",
+                "description": "[*]This mod Replace the outfits of the CSAT factions.\r\n[*]此mod更改了CSAT派系的外观。\r\n[*]Этот мод меняет внешний вид фракции CSAT.\r\n\r\nNO contact version here: https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n没有CONTACT版本 https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\nнет версии CONTACT https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n\r\n[img]https://imgur.com/g9n5xkD.gif[/img]\r\n[*]This mod Replace the outfits of the CSAT factions (new retextured LDF uniform and vest) with national flag on the right arm (yes, only one flag instead of the usual pair)\r\n[*]The units in the \"special forces\" section now wear a new distinctive camo\r\n[*]Chinese and iranian marines (with custom camo) replace the crews of the attack boats (chinese navy APC with \"marine\" camo included)\r\n[*]New uniform for the helicopter pilots\r\n[*]Orca helicopters and to-199 added to the CSAT pacific (custom camo with Chinese army roundels)\r\n[*]Rebalance: Now the units need a vest in order to survive (they spawn with it) instead of the vanilla armored uniform\r\n[*]The chinese troops no longer spawn with civilian glasses\r\n[*]New cosmetics, Tactical glasses and Shemagh (desert scarf, iranian CSAT only), berets and caps\r\n[*]All this stuff for less than 100 mb\r\n\r\n[b]F.A.Q.[/b]\r\n[*]I want to play AGAINST CSAT do i need the contac DLC?\r\n-No, this stuff it's free if used by the npc, (no advertisement on screen).\r\n\r\n[*]I want to play AS CSAT do i need the contac DLC?\r\n-No, I've included a vest and a uniform made from vanilla asset (AAF retexture), just equip them in the arsenal/editor for your character or use the \"no contact patch\" https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n[*]Do this mod delete/overwrite something?\r\n-No, while it's active the CSAT equipement will look different, if you want the old stuff back deactivate/uninstall this mod.\r\n\r\nIf you enjoy the mod please leave a thumb up\r\n\r\n\r\n[img]https://imgur.com/WKC0K3h.gif[/img]\r\n自动翻译（不完全润色）\r\n该MOD替换了CSAT派系的装备 (带有CSAT伪装的LDF制服, 国旗在右臂上)\r\n特种部队与 自定义迷彩\r\n解放军和伊朗海军陆战队取代攻击艇船员\r\n带有太平洋迷彩和PLA徽章的直升机和飞机\r\n解放军不再使用平民眼镜 (他们现在使用战术眼镜)\r\n小于100 mb\r\n\r\n常问问题。\r\n\r\n我想和CSAT对战。需要购买DLC吗？\r\n-不需要，如果由非玩家角色或非操控角色使用，则一切都是免费的（屏幕上没有广告）。\r\n\r\n我想玩CSAT，需要购买DLC吗？\r\n-不需要购买DLC，我会提供免费制服（AAF）和防弹背心，请在军械库/编辑中穿戴。没有购买CONTAC（DLC）的补丁： https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n这个mod会替换/删除/覆盖任何东西吗？\r\n-不会。如果启用，会显示新装备 。如果您想要使用原版装备，请禁用该mod\r\n\r\n对不起，翻译的不好，我（作者）是意大利人\r\n\r\n如果您喜欢MOD，请留下一个喜欢（大拇指加收藏更棒哦~）\r\n\r\n[img]https://imgur.com/RnVM64W.gif[/img]\r\nавтоматический перевод\r\n[*]новые наряды для фракции CSAT\r\n[*]спецназ имеет характерный камуфляж\r\n[*]Китайские и иранские морские пехотинцы (с индивидуальным камуфляжем) заменяют экипажи штурмовых катеров\r\n[*]Новая форма для пилотов вертолетов\r\n[*]Китайские вертолеты (Orca) и реактивные (to-199)\r\n[*]Китайские войска больше не появляются в штатских очках\r\n[*]новая косметика (очки, пустынный шарф)\r\n[*]все эти вещи менее чем за 100 мб\r\n\r\n[b]F.A.Q. (ВОПРОСЫ И ОТВЕТЫ).[/b]\r\n[*]Я хочу играть в VS CSAT, мне нужен contact DLC?\r\n-Нет, это бесплатно, если вы используете NPC (без рекламы на экране).\r\n\r\n[*]Я хочу играть в CSAT, мне нужен contact DLC?\r\n-Нет, я включил жилет и форму от ванильного актива (ретекстура AAF), просто оснастите их в арсенале / редакторе для вашего персонажа, Или без CONTACT https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n[*]Этот мод удаляет / перезаписывает что-нибудь?\r\n-Нет, пока он активен, оборудование CSAT будет выглядеть иначе, если вы хотите, чтобы старые вещи возвращались, деактивируйте / деинсталлируйте этот мод.\r\n\r\nЕсли вам нравится мод, пожалуйста, оставьте большой палец вверх\r\n\r\n[i]Public Bikey in the \"key\" folder.[/i]\r\n\r\nLicense:\r\n[img]https://imgur.com/tPunsPj.gif[/img]\r\nLicense details available at https://www.bohemia.net/community/licenses\r\n\r\n[b]Credits[/b]\r\n-Davik \r\n-BI thanks for the great game and the Arma2 samples\r\nTo achive this, I've used the resources publicly made available by the following:\r\n-Pete - Pete's Texture Templates (bohemia forum)\r\n-Saul - PSD Arma 3 Character Templates (armaholic)\r\n-surpher - CSAT camo template (bohemia forum)\r\n-Anthrax - LDF Desert Retexture (basic LDF vest texture)\r\n[i]Screenshot tools, animation and effects[/i]\r\n-POLPOX - POLPOX's Artwork Supporter\r\n-Sams - ReColor\r\n-Palms - Modern Warfare Static Pose Pack\r\n-Lakarak and Oleg Mongol - ZL2 Static Poses\r\n\r\nTag: [spoiler] csat replacement, csat overhaul, iran iranian chinese china pla 解放军 中国 替代者 大修 китайский язык Народно-освободительная армия Китая Иран [/spoiler]",
+                "time_created": 1577968889,
+                "time_updated": 1597228532,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 13513,
+                "favorited": 1753,
+                "lifetime_subscriptions": 39141,
+                "lifetime_favorited": 2079,
+                "views": 45144,
+                "tags": [
+                    {
+                        "tag": "Helicopter"
+                    },
+                    {
+                        "tag": "Wheeled"
+                    },
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Character"
+                    },
+                    {
+                        "tag": "Equipment"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Plane"
+                    },
+                    {
+                        "tag": "Tag Review"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "1956984634",
+                "result": 1,
+                "creator": "76561198047300042",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "89097109",
+                "file_url": "",
+                "hcontent_file": "7936937048418421528",
+                "preview_url": "https://images.steamusercontent.com/ugc/1495711627407035001/798F8261F8E7E2A3E05F5CD54D2144350766305C/",
+                "hcontent_preview": "1495711627407035001",
+                "title": "New CSAT (Overhaul) DVK",
+                "description": "[*]This mod Replace the outfits of the CSAT factions.\r\n[*]此mod 更改了CSAT派系的外观。\r\n[*]Этот мод меняет внешний вид фракции CSAT.\r\n\r\nNO contact version here: https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n没有CONTACT版本 https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\nнет версии CONTACT https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n\r\n[img]https://imgur.com/g9n5xkD.gif[/img]\r\n[*]This mod Replace the outfits of the CSAT factions (new retextured LDF uniform and vest) with national flag on the right arm (yes, only one flag instead of the usual pair)\r\n[*]The units in the \"special forces\" section now wear a new distinctive camo\r\n[*]Chinese and iranian marines (with custom camo) replace the crews of the attack boats (chinese navy APC with \"marine\" camo included)\r\n[*]New uniform for the helicopter pilots\r\n[*]Orca helicopters and to-199 added to the CSAT pacific (custom camo with Chinese army roundels)\r\n[*]Rebalance: Now the units need a vest in order to survive (they spawn with it) instead of the vanilla armored uniform\r\n[*]The chinese troops no longer spawn with civilian glasses\r\n[*]New cosmetics, Tactical glasses and Shemagh (desert scarf, iranian CSAT only), berets and caps\r\n[*]All this stuff for less than 100 mb\r\n\r\n[b]F.A.Q.[/b]\r\n[*]I want to play AGAINST CSAT do i need the contac DLC?\r\n-No, this stuff it's free if used by the npc, (no advertisement on screen).\r\n\r\n[*]I want to play AS CSAT do i need the contac DLC?\r\n-No, I've included a vest and a uniform made from vanilla asset (AAF retexture), just equip them in the arsenal/editor for your character or use the \"no contact patch\" https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n[*]Do this mod delete/overwrite something?\r\n-No, while it's active the CSAT equipement will look different, if you want the old stuff back deactivate/uninstall this mod.\r\n\r\nIf you enjoy the mod please leave a thumb up\r\n\r\n\r\n[img]https://imgur.com/WKC0K3h.gif[/img]\r\n自动翻译（不完全润色）\r\n该MOD替换了CSAT派系的装备 (带有CSAT伪装的LDF制服, 国旗在右臂上)\r\n特种部队与自定义迷彩\r\n解放军和伊朗海军陆战队取代攻击艇船员\r\n带有太平洋迷彩和PLA徽章的直升机和飞机\r\n解放军不再使用 平民眼镜 (他们现在使用战术眼镜)\r\n小于100 mb\r\n\r\n常问问题。\r\n\r\n我想和CSAT对战。需要购买DLC吗？\r\n-不需要，如果由非玩家角色或非操控角色使用，则一切都是免费的（屏幕上没有广告）。\r\n\r\n我想玩CSAT，需要购买DLC吗？\r\n-不需要购买DLC，我会提供免费制服（AAF）和防弹背心，请 在军械库/编辑中穿戴。没有购买CONTAC（DLC）的补丁： https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n这个mod会替换/ 删除/覆盖任何东西吗？\r\n-不会。如果启用，会显示新装备 。如果您想要使用原版装备，请禁用该mod\r\n\r\n对不起，翻译的不好，我（作者）是意大利 人\r\n\r\n如果您喜欢MOD，请留下一个喜欢（大拇指加收藏更棒哦~）\r\n\r\n[img]https://imgur.com/RnVM64W.gif[/img]\r\nавтоматический перевод\r\n[*]новые наряды для фракции CSAT\r\n[*]спецназ имеет характерный камуфляж\r\n[*]Китайские и иранские морские пехотинцы (с индивидуальным камуфляжем) заменяют экипажи штурмовых катеров\r\n[*]Новая форма для пилотов вертолетов\r\n[*]Китайские вертолеты (Orca) и реактивные (to-199)\r\n[*]Китайские войска больше не появляются в штатских очках\r\n[*]новая косметика (очки, пустынный шарф)\r\n[*]все эти вещи менее чем за 100 мб\r\n\r\n[b]F.A.Q. (ВОПРОСЫ И ОТВЕТЫ).[/b]\r\n[*]Я хочу играть в VS CSAT, мне нужен contact DLC?\r\n-Нет, это бесплатно, если вы используете NPC (без рекламы на экране).\r\n\r\n[*]Я хочу играть в CSAT, мне нужен contact DLC?\r\n-Нет, я включил жилет и форму от ванильного актива (ретекстура AAF), просто оснастите их в арсенале / редакторе для вашего персонажа, Или без CONTACT https://steamcommunity.com/sharedfiles/filedetails/?id=2196462648\r\n\r\n[*]Этот мод удаляет / перезаписывает что-нибудь?\r\n-Нет, пока он активен, оборудование CSAT будет выглядеть иначе, если вы хотите, чтобы старые вещи возвращались, деактивируйте / деинсталлируйте этот мод.\r\n\r\nЕсли вам нравится мод, пожалуйста, оставьте большой палец вверх\r\n\r\n[i]Public Bikey in the \"key\" folder.[/i]\r\n\r\nLicense:\r\n[img]https://imgur.com/tPunsPj.gif[/img]\r\nLicense details available at https://www.bohemia.net/community/licenses\r\n\r\n[b]Credits[/b]\r\n-Davik \r\n-BI thanks for the great game and the Arma2 samples\r\nTo achive this, I've used the resources publicly made available by the following:\r\n-Pete - Pete's Texture Templates (bohemia forum)\r\n-Saul - PSD Arma 3 Character Templates (armaholic)\r\n-surpher - CSAT camo template (bohemia forum)\r\n-Anthrax - LDF Desert Retexture (basic LDF vest texture)\r\n[i]Screenshot tools, animation and effects[/i]\r\n-POLPOX - POLPOX's Artwork Supporter\r\n-Sams - ReColor\r\n-Palms - Modern Warfare Static Pose Pack\r\n-Lakarak and Oleg Mongol - ZL2 Static Poses\r\n\r\nTag: [spoiler] csat replacement, csat overhaul, iran iranian chinese china pla 解放军 中国 替代者 大修 китайский язык Народно-освободительная армия Китая Иран [/spoiler]",
+                "time_created": 1577968889,
+                "time_updated": 1597228532,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 13513,
+                "favorited": 1753,
+                "lifetime_subscriptions": 39141,
+                "lifetime_favorited": 2079,
+                "views": 45144,
+                "tags": [
+                    {
+                        "tag": "Helicopter"
+                    },
+                    {
+                        "tag": "Wheeled"
+                    },
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Character"
+                    },
+                    {
+                        "tag": "Equipment"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Plane"
+                    },
+                    {
+                        "tag": "Tag Review"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2806487814",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "31507666",
+                "file_url": "",
+                "hcontent_file": "1506285611657296081",
+                "preview_url": "https://images.steamusercontent.com/ugc/17077649941400032950/3BE2C7095385C4157AE7569916E49E73623545C2/",
+                "hcontent_preview": "17077649941400032950",
+                "title": "Project SFX: Footsteps",
+                "description": "[h1]More beefier, military styled footsteps.[/h1]\r\n\r\nI did it for myself and my boys, cause we didnt liked vanilla and modded footsteps sounds.\r\nSo here it is. I am uploading it mostly for my group, but you can use it as well if you like it.\r\n\r\n[h1]It has footsteps for 90% of arma surfaces like concrete, sand, gravel, snow, sand etc. But only if a map maker set it up properly. Its fully compatible with SIG, JSRS, IFA3, Northen Front Terrains, CUP and most of the modded terrains.[/h1]\r\n\r\nWell, i dont have much to say.\r\n\r\nLove ya all,\r\nWebKnight.",
+                "time_created": 1652209763,
+                "time_updated": 1761674521,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 77780,
+                "favorited": 2778,
+                "lifetime_subscriptions": 144088,
+                "lifetime_favorited": 3100,
+                "views": 47606,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Sound"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2806487814",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "31507666",
+                "file_url": "",
+                "hcontent_file": "1506285611657296081",
+                "preview_url": "https://images.steamusercontent.com/ugc/17077649941400032950/3BE2C7095385C4157AE7569916E49E73623545C2/",
+                "hcontent_preview": "17077649941400032950",
+                "title": "Project SFX: Footsteps",
+                "description": "[h1]More beefier, military styled footsteps.[/h1]\r\n\r\nI did it for myself and my boys, cause we didnt liked vanilla and modded footsteps sounds.\r\nSo here it is. I am uploading it mostly for my group, but you can use it as well if you like it.\r\n\r\n[h1]It has footsteps for 90% of arma surfaces like concrete, sand, gravel, snow, sand etc. But only if a map maker set it up properly. Its fully compatible with SIG, JSRS, IFA3, Northen Front Terrains, CUP and most of the modded terrains.[/h1]\r\n\r\nWell, i dont have much to say.\r\n\r\nLove ya all,\r\nWebKnight.",
+                "time_created": 1652209763,
+                "time_updated": 1761674521,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 77780,
+                "favorited": 2778,
+                "lifetime_subscriptions": 144088,
+                "lifetime_favorited": 3100,
+                "views": 47606,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Sound"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2129532219",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "101058875",
+                "file_url": "",
+                "hcontent_file": "838622015071387840",
+                "preview_url": "https://images.steamusercontent.com/ugc/1921373546621689933/2F69758D75029C977EDADCB3D8563F1CD29DC479/",
+                "hcontent_preview": "1921373546621689933",
+                "title": "Project SFX: Remastered",
+                "description": "Footsteps:\r\n(Originally wanted to make them part of Project SFX, but decided to make them separate, cause not everyone will like them)\r\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2806487814\r\n\r\nProject SFX: Remastered is an extension of audio elements in Arma 3.\r\n\r\n► So, what does the mod include?\r\n\r\n◆ Extra weapon bass and low ammo sound effects (Like in PayDay or CS:GO)\r\n◆ Death sounds for different character states (combat, stealth, headshot, underwater, inside the house, inside the equipment).\r\n◆ Various sounds for players (jumping/landing sounds for different types of surfaces, throwing grenades, body hits sounds, inventory sounds, aiming sounds, concussion effect from explosions, body falling sounds).\r\n◆ Replacement of standard Arma sounds, such as: Background shooting, alarm, thunder sounds, etc.\r\n◆ New environmental sounds that you can play through Zeus or use in swine missions.\r\n\r\n\r\n► Compatibility\r\nFull multi-user compatibility (This is not a server or client mod, the client and server must both enable this mod).\r\nCompatible with mods such as Real Engine, Enhanced Soundscape, Unit Voice Over, JSRS, FEMALE, ENFORCER, Max Women, Zombie and Daemons and Ravaged.\r\nBikey for dedicated servers.\r\n\r\n\r\n► What's new in the remastered version?\r\nAs I said, I have removed the sounds that caused me problems with the last mod.\r\nHowever, I couldn't record these sounds myself, so they were all taken from various resources (YouTube, Day of Infamy). All sounds belong to their authors. I do not claim the rights of these recordings in any way! All rights belong to their original authors.\r\nI added the new environmental sounds I mentioned earlier, new aiming sounds, and removed the annoying injury system I had before. It was stupid of me to add any edits to the game mechanics that are not related to sounds. I apologize for that.\r\n\r\n► What will be added?\r\nIt's up to you guys, if you have any suggestions, please leave comments in the discussions.\r\n\r\n----------------------------------------------------------------------\r\nThank you:\r\nBohemia Interactive\r\nNew World Interactive\r\nALIAScartoons\r\nSoundSnap\r\n----------------------------------------------------------------------",
+                "time_created": 1592082993,
+                "time_updated": 1746712236,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 140158,
+                "favorited": 5583,
+                "lifetime_subscriptions": 281001,
+                "lifetime_favorited": 6292,
+                "views": 129380,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Sound"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2129532219",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "101058875",
+                "file_url": "",
+                "hcontent_file": "838622015071387840",
+                "preview_url": "https://images.steamusercontent.com/ugc/1921373546621689933/2F69758D75029C977EDADCB3D8563F1CD29DC479/",
+                "hcontent_preview": "1921373546621689933",
+                "title": "Project SFX: Remastered",
+                "description": "Footsteps:\r\n(Originally wanted to make them part of Project SFX, but decided to make them separate, cause not everyone will like them)\r\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2806487814\r\n\r\nProject SFX: Remastered is an extension of audio elements in Arma 3.\r\n\r\n► So, what does the mod include?\r\n\r\n◆ Extra weapon bass and low ammo sound effects (Like in PayDay or CS:GO)\r\n◆ Death sounds for different character states (combat, stealth, headshot, underwater, inside the house, inside the equipment).\r\n◆ Various sounds for players (jumping/landing sounds for different types of surfaces, throwing grenades, body hits sounds, inventory sounds, aiming sounds, concussion effect from explosions, body falling sounds).\r\n◆ Replacement of standard Arma sounds, such as: Background shooting, alarm, thunder sounds, etc.\r\n◆ New environmental sounds that you can play through Zeus or use in swine missions.\r\n\r\n\r\n► Compatibility\r\nFull multi-user compatibility (This is not a server or client mod, the client and server must both enable this mod).\r\nCompatible with mods such as Real Engine, Enhanced Soundscape, Unit Voice Over, JSRS, FEMALE, ENFORCER, Max Women, Zombie and Daemons and Ravaged.\r\nBikey for dedicated servers.\r\n\r\n\r\n► What's new in the remastered version?\r\nAs I said, I have removed the sounds that caused me problems with the last mod.\r\nHowever, I couldn't record these sounds myself, so they were all taken from various resources (YouTube, Day of Infamy). All sounds belong to their authors. I do not claim the rights of these recordings in any way! All rights belong to their original authors.\r\nI added the new environmental sounds I mentioned earlier, new aiming sounds, and removed the annoying injury system I had before. It was stupid of me to add any edits to the game mechanics that are not related to sounds. I apologize for that.\r\n\r\n► What will be added?\r\nIt's up to you guys, if you have any suggestions, please leave comments in the discussions.\r\n\r\n----------------------------------------------------------------------\r\nThank you:\r\nBohemia Interactive\r\nNew World Interactive\r\nALIAScartoons\r\nSoundSnap\r\n----------------------------------------------------------------------",
+                "time_created": 1592082993,
+                "time_updated": 1746712236,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 140158,
+                "favorited": 5583,
+                "lifetime_subscriptions": 281001,
+                "lifetime_favorited": 6292,
+                "views": 129380,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Sound"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "1867660876",
+                "result": 1,
+                "creator": "76561198134644766",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "1259684",
+                "file_url": "",
+                "hcontent_file": "2761219458241154197",
+                "preview_url": "https://images.steamusercontent.com/ugc/15592603975272174317/046411FCC4A4B5C12A389319F8475F95538C0C5B/",
+                "hcontent_preview": "15592603975272174317",
+                "title": "Pylon Manager",
+                "description": "[h1]Discord[/h1]\r\ndiscord.gg/SFEV5ps9sv \r\n\r\n[h1]Description:[/h1]\r\nThis is a mod I created for players to customize their pylons on Planes, Helicopter and UAV's. Pylon Manger is dynamic so it should work with any plane or helicopter mod as well.\r\n\r\n[h1]How to use:[/h1]\r\nThe action will show up when sitting in a vehicle or looking at a vehicle.\r\n\r\nTo change something in the Pylon Configuration just double click what you want it to be switched too.\r\n\r\n[h1]Cfg Example[/h1]\r\nThis goes in the Description.ext\r\n\r\nclass CfgPylonManager\r\n{\r\n\t//Blacklisted Magazines\r\n\tblacklistedMagazines[] = {\"PylonMissile_Missile_AMRAAM_D_INT_x1\",\"PylonRack_Bomb_SDB_x4\"};\r\n\r\n\t//Nothing is rearm everywhere\r\n\trearmObjects[] = {\"B_Slingload_01_Ammo_F\",\"B_Truck_01_ammo_F\"};\r\n\r\n\t//Distance needed from rearmObjects[]\r\n\trearmRange = 20;\r\n};\r\n\r\n\r\nNo permission required to use it!\r\nHowever it is strictly forbidden to modify or change the name of the author on these files!\r\nDo not re-upload on steam or any other sites!\r\n\r\nTags: Plane, Helicopter, Aviation, Aircraft, Pylon, Manager, Loadout, S.O.G. Prairie Fire\r\n\r\n[img]http://cloud-3.steamusercontent.com/ugc/318999100691998272/A465F9B7821C8386C92CD83AAB7E615E305AD7E0/[/img]",
+                "time_created": 1568960762,
+                "time_updated": 1774914822,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 61625,
+                "favorited": 2202,
+                "lifetime_subscriptions": 124420,
+                "lifetime_favorited": 2438,
+                "views": 76601,
+                "tags": [
+                    {
+                        "tag": "Helicopter"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Plane"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "1867660876",
+                "result": 1,
+                "creator": "76561198134644766",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "1259684",
+                "file_url": "",
+                "hcontent_file": "2761219458241154197",
+                "preview_url": "https://images.steamusercontent.com/ugc/15592603975272174317/046411FCC4A4B5C12A389319F8475F95538C0C5B/",
+                "hcontent_preview": "15592603975272174317",
+                "title": "Pylon Manager",
+                "description": "[h1]Discord[/h1]\r\ndiscord.gg/SFEV5ps9sv \r\n\r\n[h1]Description:[/h1]\r\nThis is a mod I created for players to customize their pylons on Planes, Helicopter and UAV's. Pylon Manger is dynamic so it should work with any plane or helicopter mod as well.\r\n\r\n[h1]How to use:[/h1]\r\nThe action will show up when sitting in a vehicle or looking at a vehicle.\r\n\r\nTo change something in the Pylon Configuration just double click what you want it to be switched too.\r\n\r\n[h1]Cfg Example[/h1]\r\nThis goes in the Description.ext\r\n\r\nclass CfgPylonManager\r\n{\r\n\t//Blacklisted Magazines\r\n\tblacklistedMagazines[] = {\"PylonMissile_Missile_AMRAAM_D_INT_x1\",\"PylonRack_Bomb_SDB_x4\"};\r\n\r\n\t//Nothing is rearm everywhere\r\n\trearmObjects[] = {\"B_Slingload_01_Ammo_F\",\"B_Truck_01_ammo_F\"};\r\n\r\n\t//Distance needed from rearmObjects[]\r\n\trearmRange = 20;\r\n};\r\n\r\n\r\nNo permission required to use it!\r\nHowever it is strictly forbidden to modify or change the name of the author on these files!\r\nDo not re-upload on steam or any other sites!\r\n\r\nTags: Plane, Helicopter, Aviation, Aircraft, Pylon, Manager, Loadout, S.O.G. Prairie Fire\r\n\r\n[img]http://cloud-3.steamusercontent.com/ugc/318999100691998272/A465F9B7821C8386C92CD83AAB7E615E305AD7E0/[/img]",
+                "time_created": 1568960762,
+                "time_updated": 1774914822,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 61625,
+                "favorited": 2202,
+                "lifetime_subscriptions": 124420,
+                "lifetime_favorited": 2438,
+                "views": 76601,
+                "tags": [
+                    {
+                        "tag": "Helicopter"
+                    },
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Plane"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "770418577",
+                "result": 1,
+                "creator": "76561198015322113",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "2782",
+                "file_url": "",
+                "hcontent_file": "111790818180017273",
+                "preview_url": "https://images.steamusercontent.com/ugc/251463491393880464/73FF15ED4F2C36A176915BC93107D15A89C54D00/",
+                "hcontent_preview": "251463491393880464",
+                "title": "Splendid Smoke",
+                "description": "What does it do?\r\nThe mod reworks the smoke effects of various weapons and events. In the initial version this includes much bigger smoke clouds created by all types of smoke grenades.\r\n\r\nThe main aspect is the improvement of the visual experience while not decreasing the performance compared to vanilla. In general this means that the amount of spawned particles remains unchanged.\r\n\r\nFeatures\r\nThe following list presents all added/changed features:\r\n\r\n* reworked effects of smoke grenades\r\n  ** double the size\r\n  ** more volume due to increased spreading\r\n  ** blocks the sight of AI\r\n  ** same particle amount than in vanilla (performant, particle limit is not reached faster)\r\n* compatible with common mods like ACE\r\n* small and compact, no overhead\r\n* perfomant\r\n\r\nTroubleshooting\r\n* The smoke effect does not look like in the video?\r\n  ** If you use any mods, try again without (vanilla). If the problem still persists, locate the problematic mod. Ensure that SplendidSmoke is loaded after this mod, this should fix the issue. In either case contact us here, at the Bistudio Forum or at GitHub so we can fix the issue also for others.\r\n* The smoke effects do not apply to a modded smoke grenade?\r\n  ** The modded grenade probably does not inherit from the vanilla grenades. Contact us here, at the Bistudio Forum or at GitHub so we can add support for this mod.\r\n\r\nSource\r\nThe source of this mod is available at GitHub, it is published under the GNU General Public License v3.0.\r\n\r\nLinks\r\nBistudio Forum: https://forums.bistudio.com/topic/194479-splendid-smoke/\r\nGitHub: https://github.com/ZabuzaW/SplendidSmoke",
+                "time_created": 1474902062,
+                "time_updated": 1481544903,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 73517,
+                "favorited": 1421,
+                "lifetime_subscriptions": 181981,
+                "lifetime_favorited": 1669,
+                "views": 49489,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Equipment"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "770418577",
+                "result": 1,
+                "creator": "76561198015322113",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "2782",
+                "file_url": "",
+                "hcontent_file": "111790818180017273",
+                "preview_url": "https://images.steamusercontent.com/ugc/251463491393880464/73FF15ED4F2C36A176915BC93107D15A89C54D00/",
+                "hcontent_preview": "251463491393880464",
+                "title": "Splendid Smoke",
+                "description": "What does it do?\r\nThe mod reworks the smoke effects of various weapons and events. In the initial version this includes much bigger smoke clouds created by all types of smoke grenades.\r\n\r\nThe main aspect is the improvement of the visual experience while not decreasing the performance compared to vanilla. In general this means that the amount of spawned particles remains unchanged.\r\n\r\nFeatures\r\nThe following list presents all added/changed features:\r\n\r\n* reworked effects of smoke grenades\r\n  ** double the size\r\n  ** more volume due to increased spreading\r\n  ** blocks the sight of AI\r\n  ** same particle amount than in vanilla (performant, particle limit is not reached faster)\r\n* compatible with common mods like ACE\r\n* small and compact, no overhead\r\n* perfomant\r\n\r\nTroubleshooting\r\n* The smoke effect does not look like in the video?\r\n  ** If you use any mods, try again without (vanilla). If the problem still persists, locate the problematic mod. Ensure that SplendidSmoke is loaded after this mod, this should fix the issue. In either case contact us here, at the Bistudio Forum or at GitHub so we can fix the issue also for others.\r\n* The smoke effects do not apply to a modded smoke grenade?\r\n  ** The modded grenade probably does not inherit from the vanilla grenades. Contact us here, at the Bistudio Forum or at GitHub so we can add support for this mod.\r\n\r\nSource\r\nThe source of this mod is available at GitHub, it is published under the GNU General Public License v3.0.\r\n\r\nLinks\r\nBistudio Forum: https://forums.bistudio.com/topic/194479-splendid-smoke/\r\nGitHub: https://github.com/ZabuzaW/SplendidSmoke",
+                "time_created": 1474902062,
+                "time_updated": 1481544903,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 73517,
+                "favorited": 1421,
+                "lifetime_subscriptions": 181981,
+                "lifetime_favorited": 1669,
+                "views": 49489,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Animation"
+                    },
+                    {
+                        "tag": "Equipment"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "708931058",
+                "result": 1,
+                "creator": "76561198160091618",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "344483911",
+                "file_url": "",
+                "hcontent_file": "3155628964253964266",
+                "preview_url": "https://images.steamusercontent.com/ugc/1840285202627275786/46BBB196A41642ED1E7922E9F8519E62A4B16781/",
+                "hcontent_preview": "1840285202627275786",
+                "title": "SSD Death Screams 2.1",
+                "description": "For a long time I thought Arma lacked some kind of feedback whenever a unit was injured or killed, making combat feel somewhat stale and oddly quiet. After playing games such as Red Orchestra 2 and Battlefield, I noticed how hit feedback (such as screams, grunts, cries, etc) can make for a much more visceral experience. Therefore, I decided to use some of these sounds to give Arma a similar level of auditory depth.\r\n\r\nI've been using this mod privately with my group for a while, but I decided to release it as I think it reached a passable level of quality. So any feedback, positive or negative, will be greatly appreciated!\r\n\r\n\r\n[h1]Features:[/h1]\r\n\r\n\r\nThis mod adds various injury sound effects to Arma 3 such as screams, blood gurgles, etc, from games such as Battlefield 3/4/1/5, Red Orchestra 2 and Chivalry: Medieval Warfare. The mod will play the corresponding sound depending on the injury that a soldier receives. For example, a soldier getting hit will play a lower pitched scream or grunt while emitting a higher pitched shriek when killed. Afterwards, the soldier may have \"death rattle\" noises such as blood gurgling if he was shot in the neck or intense panicked screaming if hit in the stomach. There are also variants which play indoors with reverb, or outdoors with a light echo.\r\n\r\nThe mod is also MP compatible and signed, so all players will hear the exact same sound as all work is handled serverside and then broadcast to the clients.\r\n\r\nThere are over 400 individual sounds included in the mod, with many more planned to be added in subsequent updates. However, the mod is still highly work in progress so it might not work 100% perfectly and the death rattles have no indoor variations quite yet.\r\n\r\n\r\n[h1]Configuring:[/h1]\r\n\r\n\r\nThis mod now supports the CBA addon options menu with many customizable settings! These are unique to each client so every player can tailor the mod to his or her tastes.\r\n\r\nAccess these new options by going to Options -> Addon Options -> SSD Death Screams. Be sure to press OK to save your new settings!\r\n\r\nIf you wish to disable hit reactions from specific units you can use (this setVariable [\"SSD_disabledSounds\", true]) in their init field.\r\n\r\n\r\n[h1]Important:[/h1]\r\n\r\n\r\nIf being used on a server, be it hosted or dedicated, the server [b]must[/b] have the mod installed and enabled in addition to all clients, otherwise the sounds may not play at all.\r\n\r\n\r\n[h1]Known Issues:[/h1]\r\n\r\n[list]\r\n[*]There is currently some unpredictable behavior while using ACE due to it messing with the \"HitPart\" event handler and detecting whether a unit has died or not. I am currently investigating some workarounds.\r\n\r\n[*]Screams from being burnt by a wreck or other fire sources are currently disabled due to some issues I've run into, but I will try to have them working eventually.[/list]\r\n\r\n\r\n[h1]Credits:[/h1]\r\n\r\n\r\nThis mod is inspired by Froggyluv's \"FrogScreams\" addon which can be found at: https://steamcommunity.com/sharedfiles/filedetails/?id=686515642&searchtext=Frog+Screams",
+                "time_created": 1466659906,
+                "time_updated": 1643160856,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 33317,
+                "favorited": 1171,
+                "lifetime_subscriptions": 71065,
+                "lifetime_favorited": 1308,
+                "views": 27847,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Sound"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "708931058",
+                "result": 1,
+                "creator": "76561198160091618",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "344483911",
+                "file_url": "",
+                "hcontent_file": "3155628964253964266",
+                "preview_url": "https://images.steamusercontent.com/ugc/1840285202627275786/46BBB196A41642ED1E7922E9F8519E62A4B16781/",
+                "hcontent_preview": "1840285202627275786",
+                "title": "SSD Death Screams 2.1",
+                "description": "For a long time I thought Arma lacked some kind of feedback whenever a unit was injured or killed, making combat feel somewhat stale and oddly quiet. After playing games such as Red Orchestra 2 and Battlefield, I noticed how hit feedback (such as screams, grunts, cries, etc) can make for a much more visceral experience. Therefore, I decided to use some of these sounds to give Arma a similar level of auditory depth.\r\n\r\nI've been using this mod privately with my group for a while, but I decided to release it as I think it reached a passable level of quality. So any feedback, positive or negative, will be greatly appreciated!\r\n\r\n\r\n[h1]Features:[/h1]\r\n\r\n\r\nThis mod adds various injury sound effects to Arma 3 such as screams, blood gurgles, etc, from games such as Battlefield 3/4/1/5, Red Orchestra 2 and Chivalry: Medieval Warfare. The mod will play the corresponding sound depending on the injury that a soldier receives. For example, a soldier getting hit will play a lower pitched scream or grunt while emitting a higher pitched shriek when killed. Afterwards, the soldier may have \"death rattle\" noises such as blood gurgling if he was shot in the neck or intense panicked screaming if hit in the stomach. There are also variants which play indoors with reverb, or outdoors with a light echo.\r\n\r\nThe mod is also MP compatible and signed, so all players will hear the exact same sound as all work is handled serverside and then broadcast to the clients.\r\n\r\nThere are over 400 individual sounds included in the mod, with many more planned to be added in subsequent updates. However, the mod is still highly work in progress so it might not work 100% perfectly and the death rattles have no indoor variations quite yet.\r\n\r\n\r\n[h1]Configuring:[/h1]\r\n\r\n\r\nThis mod now supports the CBA addon options menu with many customizable settings! These are unique to each client so every player can tailor the mod to his or her tastes.\r\n\r\nAccess these new options by going to Options -> Addon Options -> SSD Death Screams. Be sure to press OK to save your new settings!\r\n\r\nIf you wish to disable hit reactions from specific units you can use (this setVariable [\"SSD_disabledSounds\", true]) in their init field.\r\n\r\n\r\n[h1]Important:[/h1]\r\n\r\n\r\nIf being used on a server, be it hosted or dedicated, the server [b]must[/b] have the mod installed and enabled in addition to all clients, otherwise the sounds may not play at all.\r\n\r\n\r\n[h1]Known Issues:[/h1]\r\n\r\n[list]\r\n[*]There is currently some unpredictable behavior while using ACE due to it messing with the \"HitPart\" event handler and detecting whether a unit has died or not. I am currently investigating some workarounds.\r\n\r\n[*]Screams from being burnt by a wreck or other fire sources are currently disabled due to some issues I've run into, but I will try to have them working eventually.[/list]\r\n\r\n\r\n[h1]Credits:[/h1]\r\n\r\n\r\nThis mod is inspired by Froggyluv's \"FrogScreams\" addon which can be found at: https://steamcommunity.com/sharedfiles/filedetails/?id=686515642&searchtext=Frog+Screams",
+                "time_created": 1466659906,
+                "time_updated": 1643160856,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 33317,
+                "favorited": 1171,
+                "lifetime_subscriptions": 71065,
+                "lifetime_favorited": 1308,
+                "views": 27847,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    },
+                    {
+                        "tag": "Sound"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2161671937",
+                "result": 1,
+                "creator": "76561197977538474",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "286507",
+                "file_url": "",
+                "hcontent_file": "4440814309647594633",
+                "preview_url": "https://images.steamusercontent.com/ugc/1339208550272816264/C0E16CFB4DE2E6BDAFABBF23472BA4E15C553124/",
+                "hcontent_preview": "1339208550272816264",
+                "title": "Vehicle Inventory System",
+                "description": "[b]This addon adds the capability to manage the inventory of vehicles using profiled loadouts, similar to the BI or ACE Arsenal Loadouts when the vehicle is near a BI or ACE arsenal[/b]\r\n\r\nThis system is intended to allow anyone to develop and save a custom vehicle loadout without having to write scripts and record item classnames. Simply configure a vehicle inventory as you like, save the loadout as a profile and load it into any vehicle near an ACE or BI virtual arsenal.\r\n\r\n[b] If you leave a negative rating, please leave me a comment so I know what you'd like fixed[/b]\r\n\r\nThis is designed to work in SP, MP and Dedicated with human and AI vehicles.\r\n\r\nThis is a Beta release. \r\n\r\n[b]***For best results, use with the AmmoCan mod, to save vehicle profiles with additional ammo![/b] https://steamcommunity.com/sharedfiles/filedetails/?id=2162698437\r\n\r\n[b]***For best results, use with the Helocast mod, to expedite the loading of equipment into CRRCs![/b] https://steamcommunity.com/sharedfiles/filedetails/?id=1947483966\r\n\r\n[b]Supported Vehicles:[/b][LIST]\r\n[*]All mobile Vehicles are Supported by Default (Static Turrets are not supported at this time)\r\n[/LIST]\r\n\r\n\r\n[b]Features:[/b][LIST]\r\n[*]Support for SP, MP and Dedicated\r\n[*]Ability to clear existing inventory from a vehicle\r\n[*]Ability to save and load inventory profiles for later use, or for quickly preparing for the mission at hand\r\n[*]Tested & compatible with ALiVE and Zeus spawned vehicles\r\n[*]Should be compatible with Liberation, Antistasi, etc. (Would love testing feedback)\r\n[/LIST]\r\n\r\n[b]Setup:[/b]\r\nThe vehicle must be near a BI or ACE arsenal and not moving - at that point the vehicle will have a scroll action to allow saving and loading.\r\n[LIST]\r\n[*]Non-armored vehicles must be within 30 meters\r\n[*]Armored vehicles must be within 50 meters\r\n[*]Aircraft must be within 200 meters\r\n[*]Ships must be within 300 meters\r\n[/LIST]\r\n\r\nVehicles are automatically ready to have profiles saved and loaded.\r\nSimply fill a vehicle inventory to the desired specifications, and save the loadout. It can be loaded again into a vehicle for later use.\r\nLoadouts are not vehicle specific, however it is recommended to make separate loadouts for vehicles with different carrying capacities, as to avoid truncating your inventory.\r\n\r\n[b]Vehicle Loadout Procedure:[/b]\r\nFrom anywhere you can access the inventory of a compatible vehicle, which has been parked nearby an BI or Ace Arsenal > From your inventory, deposit desired items into the vehicle > While near an BI or Ace arsenal, save the loadout via scroll interaction > Load the profile as needed.\r\n\r\n[b]Tips:[/b]\r\nLike the BI and Ace Arsenals, this mod does not 'add' items to the vehicle inventory, rather it sets the inventory to a given profile. When loading vehicles, be sure to load a profile as needed before adding any additional items.\r\nThe saves are associated with your ARMA 3 profile - if you change profiles, you won't see your saves.\r\n\r\n[b]Limitations:[/b][LIST]\r\n[*]The system does not track which addons you are using. If you make a save for items that aren't available they will be skipped (I think...feedback welcome)\r\n[*]Overwriting save profiles is not yet implemented\r\n[*]Vehicle Loadouts are not Vehicle Unique, so inventories that are too large for the vehicle you're trying to load won't work.\r\n[*]Does not preserve ACE Cargo spaces. Any item in ACE Cargo will still need to be managed by hand.\r\n[/LIST]\r\n\r\n[b]Planned Updates:[/b][LIST]\r\n[*]ACE Cargo compatibility\r\n[*]Ability to overwrite existing save profiles\r\n[*]Additional inventory realism features\r\n[*]Static turret support\r\n[/LIST]\r\n\r\n[b]Usage Restrictions:[/b]\r\nThe GNU General Public License v3.0: https://www.gnu.org/licenses/gpl-3.0.en.html\r\n\r\nI know folks are going to dePBO this, so the GPL license just basically asks that you mention me on any work based on this. I will be making my Github for this public once the addon is a bit more mature.\r\n\r\nAnyone may add the raw PBOs for this mod into their own addons, etc.\r\n\r\n[b]BIS Forum:[/b]\r\nhttps://forums.bohemia.net/forums/topic/229969-vehicle-inventory-system/\r\n\r\n[b]Acknowledgments and Thanks:[/b]\r\nRoqarr\r\n",
+                "time_created": 1594417911,
+                "time_updated": 1594418343,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 18871,
+                "favorited": 976,
+                "lifetime_subscriptions": 46946,
+                "lifetime_favorited": 1105,
+                "views": 38350,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "2161671937",
+                "result": 1,
+                "creator": "76561197977538474",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "286507",
+                "file_url": "",
+                "hcontent_file": "4440814309647594633",
+                "preview_url": "https://images.steamusercontent.com/ugc/1339208550272816264/C0E16CFB4DE2E6BDAFABBF23472BA4E15C553124/",
+                "hcontent_preview": "1339208550272816264",
+                "title": "Vehicle Inventory System",
+                "description": "[b]This addon adds the capability to manage the inventory of vehicles using profiled loadouts, similar to the BI or ACE Arsenal Loadouts when the vehicle is near a BI or ACE arsenal[/b]\r\n\r\nThis system is intended to allow anyone to develop and save a custom vehicle loadout without having to write scripts and record item classnames. Simply configure a vehicle inventory as you like, save the loadout as a profile and load it into any vehicle near an ACE or BI virtual arsenal.\r\n\r\n[b] If you leave a negative rating, please leave me a comment so I know what you'd like fixed[/b]\r\n\r\nThis is designed to work in SP, MP and Dedicated with human and AI vehicles.\r\n\r\nThis is a Beta release. \r\n\r\n[b]***For best results, use with the AmmoCan mod, to save vehicle profiles with additional ammo![/b] https://steamcommunity.com/sharedfiles/filedetails/?id=2162698437\r\n\r\n[b]***For best results, use with the Helocast mod, to expedite the loading of equipment into CRRCs![/b] https://steamcommunity.com/sharedfiles/filedetails/?id=1947483966\r\n\r\n[b]Supported Vehicles:[/b][LIST]\r\n[*]All mobile Vehicles are Supported by Default (Static Turrets are not supported at this time)\r\n[/LIST]\r\n\r\n\r\n[b]Features:[/b][LIST]\r\n[*]Support for SP, MP and Dedicated\r\n[*]Ability to clear existing inventory from a vehicle\r\n[*]Ability to save and load inventory profiles for later use, or for quickly preparing for the mission at hand\r\n[*]Tested & compatible with ALiVE and Zeus spawned vehicles\r\n[*]Should be compatible with Liberation, Antistasi, etc. (Would love testing feedback)\r\n[/LIST]\r\n\r\n[b]Setup:[/b]\r\nThe vehicle must be near a BI or ACE arsenal and not moving - at that point the vehicle will have a scroll action to allow saving and loading.\r\n[LIST]\r\n[*]Non-armored vehicles must be within 30 meters\r\n[*]Armored vehicles must be within 50 meters\r\n[*]Aircraft must be within 200 meters\r\n[*]Ships must be within 300 meters\r\n[/LIST]\r\n\r\nVehicles are automatically ready to have profiles saved and loaded.\r\nSimply fill a vehicle inventory to the desired specifications, and save the loadout. It can be loaded again into a vehicle for later use.\r\nLoadouts are not vehicle specific, however it is recommended to make separate loadouts for vehicles with different carrying capacities, as to avoid truncating your inventory.\r\n\r\n[b]Vehicle Loadout Procedure:[/b]\r\nFrom anywhere you can access the inventory of a compatible vehicle, which has been parked nearby an BI or Ace Arsenal > From your inventory, deposit desired items into the vehicle > While near an BI or Ace arsenal, save the loadout via scroll interaction > Load the profile as needed.\r\n\r\n[b]Tips:[/b]\r\nLike the BI and Ace Arsenals, this mod does not 'add' items to the vehicle inventory, rather it sets the inventory to a given profile. When loading vehicles, be sure to load a profile as needed before adding any additional items.\r\nThe saves are associated with your ARMA 3 profile - if you change profiles, you won't see your saves.\r\n\r\n[b]Limitations:[/b][LIST]\r\n[*]The system does not track which addons you are using. If you make a save for items that aren't available they will be skipped (I think...feedback welcome)\r\n[*]Overwriting save profiles is not yet implemented\r\n[*]Vehicle Loadouts are not Vehicle Unique, so inventories that are too large for the vehicle you're trying to load won't work.\r\n[*]Does not preserve ACE Cargo spaces. Any item in ACE Cargo will still need to be managed by hand.\r\n[/LIST]\r\n\r\n[b]Planned Updates:[/b][LIST]\r\n[*]ACE Cargo compatibility\r\n[*]Ability to overwrite existing save profiles\r\n[*]Additional inventory realism features\r\n[*]Static turret support\r\n[/LIST]\r\n\r\n[b]Usage Restrictions:[/b]\r\nThe GNU General Public License v3.0: https://www.gnu.org/licenses/gpl-3.0.en.html\r\n\r\nI know folks are going to dePBO this, so the GPL license just basically asks that you mention me on any work based on this. I will be making my Github for this public once the addon is a bit more mature.\r\n\r\nAnyone may add the raw PBOs for this mod into their own addons, etc.\r\n\r\n[b]BIS Forum:[/b]\r\nhttps://forums.bohemia.net/forums/topic/229969-vehicle-inventory-system/\r\n\r\n[b]Acknowledgments and Thanks:[/b]\r\nRoqarr\r\n",
+                "time_created": 1594417911,
+                "time_updated": 1594418343,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 18871,
+                "favorited": 976,
+                "lifetime_subscriptions": 46946,
+                "lifetime_favorited": 1105,
+                "views": 38350,
+                "tags": [
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3132949782",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "129227",
+                "file_url": "",
+                "hcontent_file": "7249107775186064541",
+                "preview_url": "https://images.steamusercontent.com/ugc/11949536252814899816/EDD0D84C8953BB6516C2F604398613D34B3A9050/",
+                "hcontent_preview": "11949536252814899816",
+                "title": "WBK Simple Blood",
+                "description": "[h1]Best to be used with:[/h1]\r\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3596299237\r\n\r\n\r\nSimple script that i was using is some of my mods. People were asking to make it as a standalone thing, so here it is.\r\nMust be installed on both client and server.\r\n\r\nWorking with blood in Arma is hard, due to how engine handles particles and materials. So dont expect anything crazy here. If you want more advanced version for singleplayer experience i would suggest using any version of BloodLust.\r\nThis mod was developed with focus on multiplayer and low performance effect.\r\nIt works only on humans, so any custom skeletons will be untouched and therfore fully compatible with it.\r\n\r\nYou can now disable blood spawning on a specific unit via this command \r\nthis setVariable [\"WBK_BloodMod_Disable\",true,true];\r\n\r\n[h1]So what this mod does?[/h1]\r\n[list]\r\n [*]  Spawns ANIMATED vanilla blood pools when unit dies. Size and type is defined whenever unit was shoot in a head or other side of the body.\r\n [*]  Spawns a blood splatter on walls if unit is standing close to them.\r\n [*]  Spawns blood particles on headshots (Can be disabled).\r\n[/list]\r\n\r\n[h1]Known issues[/h1]\r\n[list]\r\n[*]  Blood can look weird if it spawns inside of another blood pool. Thats an vanilla blood pool problem and i cant do anything about it.\r\n[/list]\r\n\r\n\r\n[h1]Thats all, hope you'll like it. If you want to use any of the animations from this mod in your project, or If you have questions, suggestions, bug reports or want to check out what i am working on now - please join my discord - https://discord.gg/UJfDvdyr7w[/h1]\r\n\r\n\r\nMain Credits:\r\n[u]My Discord community - Inspiration\r\nMy boys - For testing and playing\r\n[/u]",
+                "time_created": 1704549716,
+                "time_updated": 1775859837,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 77637,
+                "favorited": 3058,
+                "lifetime_subscriptions": 126698,
+                "lifetime_favorited": 3300,
+                "views": 75072,
+                "tags": [
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            },
+            {
+                "publishedfileid": "3132949782",
+                "result": 1,
+                "creator": "76561198041086154",
+                "creator_app_id": 107410,
+                "consumer_app_id": 107410,
+                "filename": "",
+                "file_size": "129227",
+                "file_url": "",
+                "hcontent_file": "7249107775186064541",
+                "preview_url": "https://images.steamusercontent.com/ugc/11949536252814899816/EDD0D84C8953BB6516C2F604398613D34B3A9050/",
+                "hcontent_preview": "11949536252814899816",
+                "title": "WBK Simple Blood",
+                "description": "[h1]Best to be used with:[/h1]\r\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3596299237\r\n\r\n\r\nSimple script that i was using is some of my mods. People were asking to make it as a standalone thing, so here it is.\r\nMust be installed on both client and server.\r\n\r\nWorking with blood in Arma is hard, due to how engine handles particles and materials. So dont expect anything crazy here. If you want more advanced version for singleplayer experience i would suggest using any version of BloodLust.\r\nThis mod was developed with focus on multiplayer and low performance effect.\r\nIt works only on humans, so any custom skeletons will be untouched and therfore fully compatible with it.\r\n\r\nYou can now disable blood spawning on a specific unit via this command \r\nthis setVariable [\"WBK_BloodMod_Disable\",true,true];\r\n\r\n[h1]So what this mod does?[/h1]\r\n[list]\r\n [*]  Spawns ANIMATED vanilla blood pools when unit dies. Size and type is defined whenever unit was shoot in a head or other side of the body.\r\n [*]  Spawns a blood splatter on walls if unit is standing close to them.\r\n [*]  Spawns blood particles on headshots (Can be disabled).\r\n[/list]\r\n\r\n[h1]Known issues[/h1]\r\n[list]\r\n[*]  Blood can look weird if it spawns inside of another blood pool. Thats an vanilla blood pool problem and i cant do anything about it.\r\n[/list]\r\n\r\n\r\n[h1]Thats all, hope you'll like it. If you want to use any of the animations from this mod in your project, or If you have questions, suggestions, bug reports or want to check out what i am working on now - please join my discord - https://discord.gg/UJfDvdyr7w[/h1]\r\n\r\n\r\nMain Credits:\r\n[u]My Discord community - Inspiration\r\nMy boys - For testing and playing\r\n[/u]",
+                "time_created": 1704549716,
+                "time_updated": 1775859837,
+                "visibility": 0,
+                "banned": 0,
+                "ban_reason": "",
+                "subscriptions": 77637,
+                "favorited": 3058,
+                "lifetime_subscriptions": 126698,
+                "lifetime_favorited": 3300,
+                "views": 75072,
+                "tags": [
+                    {
+                        "tag": "Mechanics"
+                    },
+                    {
+                        "tag": "Mod"
+                    }
+                ]
+            }
+        ]
+    }
+}
