@@ -2,6 +2,7 @@
 name = "sum_modpack"
 version = "0.1.0"
 edition = "2024"
+description = "Fetch filesize statistics for a set of Steam Workshop IDs."
 
 [dependencies]
 clap = { version = "4.6.1", features = ["derive"] }
