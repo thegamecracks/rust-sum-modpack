@@ -1,3 +1,5 @@
+mod payloads;
+
 use std::{fs::read_to_string, path::Path, sync::LazyLock};
 
 use regex::Regex;
