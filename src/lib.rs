@@ -5,6 +5,7 @@ use std::fs::read_to_string;
 use std::path::Path;
 use std::sync::LazyLock;
 
+use log::warn;
 use regex::Regex;
 
 #[derive(Debug)]
@@ -97,12 +98,13 @@ impl ModpackStats {
                     publishedfileid,
                     result,
                 } => {
-                    return if *result == 9 {
-                        Err(format!("Item ID not found: {publishedfileid}"))
+                    if *result == 9 {
+                        warn!("Item ID not found: {}", publishedfileid);
                     } else {
-                        Err(format!(
-                            "Item ID {publishedfileid} Unexpected result code: {result}"
-                        ))
+                        warn!(
+                            "Item ID {} Unexpected result code: {}",
+                            publishedfileid, result,
+                        );
                     };
                 }
             }
