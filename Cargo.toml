@@ -1,6 +1,5 @@
 [package]
 name = "sum_modpack"
-version = "0.1.0"
 edition = "2024"
 description = "Fetch filesize statistics for a set of Steam Workshop IDs."
 readme = "README.md"
