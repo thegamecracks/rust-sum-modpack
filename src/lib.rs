@@ -27,7 +27,7 @@ impl Modpack {
                 .expect("Workshop ID pattern is not valid")
         });
 
-        let workshop_ids = PATTERN
+        let mut workshop_ids: Vec<u64> = PATTERN
             .captures_iter(content)
             .map(|c| {
                 c.get(1)
@@ -37,6 +37,9 @@ impl Modpack {
                     .expect("Capture group does not contain a valid u64")
             })
             .collect();
+
+        let mut unique_workshop_ids = std::collections::HashSet::new();
+        workshop_ids.retain(|id| unique_workshop_ids.insert(*id));
 
         Self { workshop_ids }
     }
@@ -116,4 +119,24 @@ pub struct Mod {
     pub title: String,
     pub description: String,
     pub file_size: u64,
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn deduplicate_workshop_ids() {
+        let modpack = Modpack::from_str(
+            r#"
+            https://steamcommunity.com/sharedfiles/filedetails/?id=123
+            https://steamcommunity.com/sharedfiles/filedetails/?id=123
+            "#,
+        );
+        assert_eq!(
+            modpack.workshop_ids,
+            vec![123],
+            "workshop IDs must be de-duplicated",
+        );
+    }
 }
