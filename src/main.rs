@@ -4,14 +4,22 @@ use clap::Parser;
 
 use sum_modpack::Modpack;
 
-fn main() {
+fn main() -> Result<(), String> {
     let cli = Cli::parse();
 
-    let modpack = Modpack::from_path(&cli.modpack);
+    let modpack = match Modpack::from_path(&cli.modpack) {
+        Ok(modpack) => modpack,
+        Err(e) => {
+            let filename = cli.modpack.display();
+            return Err(format!("Failed to read modpack file '{filename}': {e}"))
+        }
+    };
     println!("{modpack:?}");
 
     let stats = modpack.fetch_stats();
     println!("{stats:?}");
+
+    Ok(())
 }
 
 #[derive(Debug, Parser)]
