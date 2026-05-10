@@ -81,11 +81,15 @@ impl ModpackStats {
                         .parse()
                         .map_err(|_| format!("Item ID is invalid: {publishedfileid}"))?;
 
+                    let file_size = file_size
+                        .parse()
+                        .map_err(|_| format!("File size is invalid: {file_size}"))?;
+
                     mods.push(Mod {
                         publishedfileid,
                         title: title.to_string(),
                         description: description.to_string(),
-                        file_size: *file_size,
+                        file_size,
                     });
                 }
                 payloads::FileDetails::Err {
