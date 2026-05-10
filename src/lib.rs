@@ -1,6 +1,9 @@
 mod payloads;
 
-use std::{fs::read_to_string, path::Path, sync::LazyLock};
+use std::error::Error;
+use std::fs::read_to_string;
+use std::path::Path;
+use std::sync::LazyLock;
 
 use regex::Regex;
 
@@ -10,6 +13,9 @@ pub struct Modpack {
 }
 
 impl Modpack {
+    const STEAMAPI_FILEDETAILS_URL: &str =
+        "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/";
+
     pub fn from_path(path: &Path) -> Result<Self, std::io::Error> {
         let content = read_to_string(path)?;
         Ok(Self::from_str(&content))
@@ -35,16 +41,66 @@ impl Modpack {
         Self { workshop_ids }
     }
 
-    pub fn fetch_stats(&self) -> ModpackStats {
-        todo!()
+    pub fn fetch_stats(&self) -> Result<ModpackStats, Box<dyn Error>> {
+        let request = payloads::PublishedFileDetailsRequest::new(&self.workshop_ids);
+        let client = reqwest::blocking::Client::new();
+        let response = client
+            .post(Self::STEAMAPI_FILEDETAILS_URL)
+            .form(&request)
+            .send()?;
+        let response = response.json::<payloads::PublishedFileDetailsResponse>()?;
+        Ok(ModpackStats::from_response(&response)?)
     }
 }
 
 #[derive(Debug)]
-pub struct ModpackStats {}
+pub struct ModpackStats {
+    pub mods: Vec<Mod>,
+}
 
 impl ModpackStats {
-    pub fn fetch_from_modpack(modpack: &Modpack) -> Self {
-        todo!()
+    pub fn from_response(
+        response: &payloads::PublishedFileDetailsResponse,
+    ) -> Result<Self, String> {
+        let mut mods = vec![];
+        for details in response.publishedfiledetails.iter() {
+            match details {
+                payloads::FileDetails::Ok {
+                    publishedfileid,
+                    title,
+                    description,
+                    file_size,
+                    tags: _,
+                } => {
+                    mods.push(Mod {
+                        publishedfileid: *publishedfileid,
+                        title: title.to_string(),
+                        description: description.to_string(),
+                        file_size: *file_size,
+                    });
+                }
+                payloads::FileDetails::Err {
+                    publishedfileid,
+                    result,
+                } => {
+                    return if *result == 9 {
+                        Err(format!("Item ID not found: {publishedfileid}"))
+                    } else {
+                        Err(format!(
+                            "Item ID {publishedfileid} Unexpected result code: {result}"
+                        ))
+                    };
+                }
+            }
+        }
+        Ok(Self { mods })
     }
+}
+
+#[derive(Debug)]
+pub struct Mod {
+    pub publishedfileid: u64,
+    pub title: String,
+    pub description: String,
+    pub file_size: u64,
 }

@@ -21,7 +21,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         return Err("No workshop IDs found".into());
     }
 
-    let stats = modpack.fetch_stats();
+    let stats = modpack.fetch_stats()?;
     println!("{stats:?}");
 
     Ok(())
