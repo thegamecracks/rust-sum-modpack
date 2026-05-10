@@ -1,4 +1,4 @@
-mod payloads;
+pub mod payloads;
 
 use std::error::Error;
 use std::fs::read_to_string;
