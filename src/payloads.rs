@@ -47,6 +47,7 @@ pub struct Tag {
 fn create_publishedfileids(workshop_ids: &[u64]) -> HashMap<String, u64> {
     workshop_ids
         .iter()
-        .map(|id| (format!("publishedfileids[{id}]"), id.to_owned())) // FIXME: is copy appropriate?
+        .enumerate()
+        .map(|(i, id)| (format!("publishedfileids[{i}]"), id.to_owned())) // FIXME: is copy appropriate?
         .collect()
 }
