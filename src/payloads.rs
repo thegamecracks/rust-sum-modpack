@@ -76,7 +76,7 @@ mod tests {
                 FileDetails::Ok { .. } => (),
                 FileDetails::Err { .. } => panic!("Expected Ok, got {:?}", details),
             };
-        };
+        }
     }
 
     #[test]
@@ -88,7 +88,10 @@ mod tests {
         let response = serde_json::from_str::<PublishedFileDetailsResponse>(&content).unwrap();
 
         let [valid, invalid] = &response.response.publishedfiledetails[..] else {
-            panic!("Expected 2 elements, got {}", response.response.publishedfiledetails.len());
+            panic!(
+                "Expected 2 elements, got {}",
+                response.response.publishedfiledetails.len()
+            );
         };
 
         match valid {
