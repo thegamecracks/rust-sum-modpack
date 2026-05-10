@@ -76,7 +76,6 @@ impl ModpackStats {
                 payloads::FileDetails::Ok {
                     publishedfileid,
                     title,
-                    description,
                     file_size,
                     tags: _,
                 } => {
@@ -91,7 +90,6 @@ impl ModpackStats {
                     mods.push(Mod {
                         publishedfileid,
                         title: title.to_string(),
-                        description: description.to_string(),
                         file_size,
                     });
                 }
@@ -117,7 +115,6 @@ impl ModpackStats {
 pub struct Mod {
     pub publishedfileid: u64,
     pub title: String,
-    pub description: String,
     pub file_size: u64,
 }
 

@@ -35,7 +35,6 @@ pub enum FileDetails {
     Ok {
         publishedfileid: String, // FIXME: can this be deserialized into u64?
         title: String,
-        description: String,
         file_size: String, // FIXME: can this be deserialized into u64?
         tags: Vec<Tag>,
     },
