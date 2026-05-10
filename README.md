@@ -64,6 +64,6 @@ so it was out of scope for me to prettify its output with a [Rich] table.
 
 This project is written under the [MIT License].
 
-[sum_modpack.py]: https://gist.github.com/thegamecracks/d35f94ecc8f4a0ad3eb9d42817698c70
+[sum_modpack.py]: /sum_modpack.py
 [Rich]: https://rich.readthedocs.io/en/stable/
 [MIT License]: /LICENSE
