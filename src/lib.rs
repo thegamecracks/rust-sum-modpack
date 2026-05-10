@@ -1,4 +1,4 @@
-use std::{fs::read_to_string, path::PathBuf, sync::LazyLock};
+use std::{fs::read_to_string, path::Path, sync::LazyLock};
 
 use regex::Regex;
 
@@ -8,7 +8,7 @@ pub struct Modpack {
 }
 
 impl Modpack {
-    pub fn from_path(path: &PathBuf) -> Result<Self, std::io::Error> {
+    pub fn from_path(path: &Path) -> Result<Self, std::io::Error> {
         let content = read_to_string(path)?;
         Ok(Self::from_str(&content))
     }
