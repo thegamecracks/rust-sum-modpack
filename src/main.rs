@@ -2,6 +2,7 @@ use std::error::Error;
 use std::path::PathBuf;
 
 use clap::Parser;
+use clap_verbosity_flag::{InfoLevel, Verbosity};
 
 use sum_modpack::Modpack;
 
@@ -30,6 +31,9 @@ fn main() -> Result<(), Box<dyn Error>> {
 #[derive(Debug, Parser)]
 #[command(version, about, long_about = None)]
 struct Cli {
+    #[command(flatten)]
+    verbosity: Verbosity<InfoLevel>,
+
     /// The modpack file to read
     modpack: PathBuf,
 }
