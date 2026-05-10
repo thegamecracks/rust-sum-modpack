@@ -33,7 +33,56 @@ impl ModpackStats {
     }
 }
 
-#[derive(Debug)]
+impl ToString for ModpackStats {
+    fn to_string(&self) -> String {
+        let mut mods: Vec<Mod> = self.mods.to_vec();
+        mods.sort_by(|a, b| a.title.cmp(&b.title));
+        mods.sort_by(|a, b| b.file_size.cmp(&a.file_size));
+
+        let rows: Vec<ModStatRow> = vec![];
+
+        let sizes_down: Vec<u64> = mods.iter().map(|m| m.file_size).collect();
+        let mut sizes_up = sizes_down.clone();
+        sizes_up.reverse();
+
+        let total_down = cumulative_sum(&sizes_down);
+        let total_up = cumulative_sum(&sizes_up);
+
+        tabled::Table::new(rows)
+            .with(tabled::settings::Style::modern())
+            .to_string()
+    }
+}
+
+fn cumulative_sum<T: Default + Copy + std::ops::AddAssign>(values: &[T]) -> Vec<T> {
+    let mut sums = vec![];
+    let mut total = T::default();
+    for v in values {
+        total += *v;
+        sums.push(total);
+    }
+    sums
+}
+
+#[derive(tabled::Tabled)]
+struct ModStatRow {
+    #[tabled(rename = "#")]
+    index: usize,
+    #[tabled(rename = "Total (up)", display = "display_filesize")]
+    total_up: u64,
+    #[tabled(rename = "Total (down)", display = "display_filesize")]
+    total_down: u64,
+    #[tabled(rename = "Size", display = "display_filesize")]
+    size: u64,
+    #[tabled(rename = "Title")]
+    title: String,
+}
+
+fn display_filesize(n: &u64) -> String {
+    todo!()
+}
+
+#[derive(Clone, Debug)]
 pub struct Mod {
     pub publishedfileid: u64,
     pub title: String,
