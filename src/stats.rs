@@ -1,6 +1,10 @@
 use std::num::ParseIntError;
 
+use itertools::izip;
 use log::warn;
+use tabled::settings::object::{Columns, Object};
+use tabled::settings::{Alignment, Style};
+use tabled::{Table, Tabled};
 
 use crate::payloads;
 
@@ -39,17 +43,29 @@ impl ToString for ModpackStats {
         mods.sort_by(|a, b| a.title.cmp(&b.title));
         mods.sort_by(|a, b| b.file_size.cmp(&a.file_size));
 
-        let rows: Vec<ModStatRow> = vec![];
+        let mut rows: Vec<ModStatRow> = vec![];
 
         let sizes_down: Vec<u64> = mods.iter().map(|m| m.file_size).collect();
         let mut sizes_up = sizes_down.clone();
         sizes_up.reverse();
 
         let total_down = cumulative_sum(&sizes_down);
-        let total_up = cumulative_sum(&sizes_up);
+        let mut total_up = cumulative_sum(&sizes_up);
+        total_up.reverse();
 
-        tabled::Table::new(rows)
-            .with(tabled::settings::Style::modern())
+        for ((i, m), total_up, total_down) in izip!(mods.iter().enumerate(), total_up, total_down) {
+            rows.push(ModStatRow {
+                index: i + 1,
+                total_up,
+                total_down,
+                size: m.file_size,
+                title: m.title.clone(),
+            })
+        }
+
+        Table::new(rows)
+            .with(Style::rounded())
+            .modify(Columns::new(..).not(Columns::last()), Alignment::right())
             .to_string()
     }
 }
@@ -64,7 +80,7 @@ fn cumulative_sum<T: Default + Copy + std::ops::AddAssign>(values: &[T]) -> Vec<
     sums
 }
 
-#[derive(tabled::Tabled)]
+#[derive(Tabled)]
 struct ModStatRow {
     #[tabled(rename = "#")]
     index: usize,
