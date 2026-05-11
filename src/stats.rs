@@ -42,7 +42,7 @@ impl Display for ModpackStats {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let mut mods: Vec<Mod> = self.mods.to_vec();
         mods.sort_by(|a, b| a.title.cmp(&b.title));
-        mods.sort_by(|a, b| b.file_size.cmp(&a.file_size));
+        mods.sort_by_key(|b| std::cmp::Reverse(b.file_size));
 
         let mut rows: Vec<ModStatRow> = vec![];
 
