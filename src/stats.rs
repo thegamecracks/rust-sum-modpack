@@ -2,11 +2,11 @@ use std::fmt::Display;
 use std::num::ParseIntError;
 
 use itertools::izip;
-use thiserror::Error;
-use tracing::warn;
 use tabled::settings::object::{Columns, Object};
 use tabled::settings::{Alignment, Style};
 use tabled::{Table, Tabled};
+use thiserror::Error;
+use tracing::warn;
 
 use crate::payloads;
 

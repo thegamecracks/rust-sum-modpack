@@ -19,7 +19,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         Err(e) => {
             let filename = cli.modpack.display();
             return Err(format!("Failed to read modpack file '{filename}': {e}").into());
-        },
+        }
     };
 
     debug!("{modpack:?}");
