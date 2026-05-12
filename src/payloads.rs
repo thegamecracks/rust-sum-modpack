@@ -13,7 +13,7 @@ impl PublishedFileDetailsRequest {
     pub fn new(workshop_ids: &[u64]) -> Self {
         Self {
             itemcount: workshop_ids.len(),
-            publishedfileids: create_publishedfileids(workshop_ids),
+            publishedfileids: create_publishedfileids(workshop_ids.iter().copied()),
         }
     }
 }
@@ -49,11 +49,10 @@ pub struct Tag {
     pub tag: String,
 }
 
-fn create_publishedfileids(workshop_ids: &[u64]) -> HashMap<String, u64> {
+fn create_publishedfileids<T: Iterator<Item = u64>>(workshop_ids: T) -> HashMap<String, u64> {
     workshop_ids
-        .iter()
         .enumerate()
-        .map(|(i, id)| (format!("publishedfileids[{i}]"), id.to_owned())) // FIXME: is copy appropriate?
+        .map(|(i, id)| (format!("publishedfileids[{i}]"), id))
         .collect()
 }
 
