@@ -38,7 +38,7 @@ impl ModpackStats {
     }
 
     fn to_table_cumulative(mods: &[Mod]) -> Table {
-        let mut rows: Vec<ModStatRow> = vec![];
+        let mut rows = Vec::<ModStatRow>::with_capacity(mods.len());
 
         let sizes_down: Vec<u64> = mods.iter().map(|m| m.file_size).collect();
         let mut sizes_up = sizes_down.clone();
@@ -94,7 +94,7 @@ impl Display for ModpackStats {
 }
 
 fn cumulative_sum<T: Default + Copy + std::ops::AddAssign>(values: &[T]) -> Vec<T> {
-    let mut sums = vec![];
+    let mut sums = Vec::with_capacity(values.len());
     let mut total = T::default();
     for v in values {
         total += *v;
