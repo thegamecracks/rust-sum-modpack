@@ -128,6 +128,8 @@ options:
 Instead of installing the project each time you make changes, you can compile
 and run the CLI on demand with `cargo run`, for example, `cargo run -q -- --help`.
 
+To run tests, use either `cargo test` or [`cargo nextest run`](https://nexte.st/) if installed.
+
 ## Todo
 
 - [ ] Allow specifying Steam Workshop item IDs as input
