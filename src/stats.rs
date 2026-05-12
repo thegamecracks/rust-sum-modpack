@@ -36,10 +36,8 @@ impl ModpackStats {
         }
         Ok(Self { mods })
     }
-}
 
-impl Display for ModpackStats {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+    pub fn to_table(&self) -> Table {
         let mut mods: Vec<Mod> = self.mods.to_vec();
         mods.sort_by(|a, b| a.title.cmp(&b.title));
         mods.sort_by_key(|b| std::cmp::Reverse(b.file_size));
@@ -64,10 +62,16 @@ impl Display for ModpackStats {
             })
         }
 
-        Table::new(rows)
-            .with(Style::rounded())
-            .modify(Columns::new(..).not(Columns::last()), Alignment::right())
-            .fmt(f)
+        let mut table = Table::new(rows);
+        table.with(Style::rounded());
+        table.modify(Columns::new(..).not(Columns::last()), Alignment::right());
+        table
+    }
+}
+
+impl Display for ModpackStats {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        self.to_table().fmt(f)
     }
 }
 
