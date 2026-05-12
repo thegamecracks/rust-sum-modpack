@@ -1,6 +1,6 @@
 # Reference:
 # https://github.com/BrettMayson/HEMTT/blob/main/.github/workflows/build.yaml
-name: Build
+name: Build for release
 
 on:
   workflow_dispatch:
