@@ -1,5 +1,8 @@
 # rust-sum-modpack
 
+![](https://img.shields.io/github/actions/workflow/status/thegamecracks/rust-sum-modpack/clippy.yml?style=flat-square&label=clippy)
+![](https://img.shields.io/github/actions/workflow/status/thegamecracks/rust-sum-modpack/test.yml?style=flat-square&label=tests)
+
 A rewrite of my [sum_modpack.py] script in Rust, for fun!
 
 ```rust
