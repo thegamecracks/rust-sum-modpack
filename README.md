@@ -89,6 +89,12 @@ Number of mods: 19
  19         3KB       4,952MB        3KB  Splendid Smoke
 ```
 
+## Todo
+
+- [ ] Allow specifying Steam Workshop item IDs as input
+- [ ] Allow specifying Steam Workshop collections as input
+- [ ] Allow specifying multiple files / item IDs as inputs
+
 ## License
 
 This project is written under the [MIT License].
