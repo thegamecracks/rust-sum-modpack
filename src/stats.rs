@@ -44,8 +44,8 @@ impl ModpackStats {
         let mut sizes_up = sizes_down.clone();
         sizes_up.reverse();
 
-        let total_down = cumulative_sum(&sizes_down);
-        let mut total_up = cumulative_sum(&sizes_up);
+        let total_down = cumulative_sum(sizes_down.into_iter());
+        let mut total_up = cumulative_sum(sizes_up.into_iter());
         total_up.reverse();
 
         for ((i, m), total_up, total_down) in izip!(mods.iter().enumerate(), total_up, total_down) {
@@ -93,14 +93,15 @@ impl Display for ModpackStats {
     }
 }
 
-fn cumulative_sum<T: Default + Copy + std::ops::AddAssign>(values: &[T]) -> Vec<T> {
-    let mut sums = Vec::with_capacity(values.len());
-    let mut total = T::default();
-    for v in values {
-        total += *v;
-        sums.push(total);
-    }
-    sums
+fn cumulative_sum<E: Copy + Default + std::ops::AddAssign, T: Iterator<Item = E>>(
+    values: T,
+) -> Vec<E> {
+    values
+        .scan(E::default(), |state, x| {
+            *state += x;
+            Some(*state)
+        })
+        .collect()
 }
 
 #[derive(Clone, Debug, Default, PartialEq, Eq, Tabled)]
