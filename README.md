@@ -89,6 +89,32 @@ Number of mods: 19
  19         3KB       4,952MB        3KB  Splendid Smoke
 ```
 
+## Installation
+
+### Manual download
+
+1. Navigate to the [Releases](https://github.com/thegamecracks/rust-sum-modpack/releases/latest) page
+2. Find the corresponding binary archive for your platform
+3. Download and extract the binary to somewhere on your PATH
+4. `sum-modpack --help`
+
+### Using `cargo binstall`
+
+This assumes you have [cargo] and [cargo-binstall].
+
+1. `cargo binstall sum-modpack --git https://github.com/thegamecracks/rust-sum-modpack`
+2. `sum-modpack --help`
+
+[cargo]: https://doc.rust-lang.org/cargo/getting-started/installation.html
+[cargo-binstall]: https://github.com/cargo-bins/cargo-binstall/tree/main#installation
+
+### Using `cargo install` (compiling from source)
+
+This assumes you have [cargo].
+
+1. `cargo install --path .`
+2. `sum-modpack --help`
+
 ## Todo
 
 - [ ] Allow specifying Steam Workshop item IDs as input
