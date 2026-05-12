@@ -2,6 +2,7 @@ use std::fmt::Display;
 use std::num::ParseIntError;
 
 use itertools::izip;
+use thiserror::Error;
 use tracing::warn;
 use tabled::settings::object::{Columns, Object};
 use tabled::settings::{Alignment, Style};
@@ -22,16 +23,7 @@ impl ModpackStats {
         for details in response.response.publishedfiledetails.iter() {
             match Mod::try_from(details) {
                 Ok(m) => mods.push(m),
-                Err(e) => match e {
-                    ModError::ItemNotFound(publishedfileid) => {
-                        warn!("Item ID not found: {}", publishedfileid)
-                    }
-                    ModError::InvalidResult(publishedfileid, result) => warn!(
-                        "Item ID {} Unexpected result code: {}",
-                        publishedfileid, result,
-                    ),
-                    ModError::ParseIntError(e) => warn!("{}", e),
-                },
+                Err(e) => warn!("{}", e),
             }
         }
         Ok(Self { mods })
@@ -196,17 +188,14 @@ impl TryFrom<&payloads::FileDetails> for Mod {
     }
 }
 
-#[derive(Clone, Debug, PartialEq, Eq)]
+#[derive(Clone, Debug, Error, PartialEq, Eq)]
 pub enum ModError {
+    #[error("Item ID not found: {0}")]
     ItemNotFound(String),
+    #[error("Item ID {0} Unexpected result code: {1}")]
     InvalidResult(String, u64),
-    ParseIntError(ParseIntError),
-}
-
-impl From<ParseIntError> for ModError {
-    fn from(value: ParseIntError) -> Self {
-        Self::ParseIntError(value)
-    }
+    #[error("{0}")]
+    ParseIntError(#[from] ParseIntError),
 }
 
 #[derive(Copy, Clone, Debug, Default, PartialEq, Eq, PartialOrd, Ord, clap::ValueEnum)]
