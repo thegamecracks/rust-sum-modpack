@@ -820,7 +820,6 @@ dependencies = [
  "clap",
  "clap-verbosity-flag",
  "itertools",
- "log",
  "num-format",
  "pretty_env_logger",
  "regex",
