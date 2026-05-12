@@ -37,11 +37,28 @@ impl ModpackStats {
         Ok(Self { mods })
     }
 
-    pub fn to_table(&self) -> Table {
+    pub fn to_table(&self, sort: SortMode) -> Table {
         let mut mods: Vec<Mod> = self.mods.to_vec();
         mods.sort_by(|a, b| a.title.cmp(&b.title));
-        mods.sort_by_key(|b| std::cmp::Reverse(b.file_size));
 
+        let mut table = match sort {
+            SortMode::Largest => {
+                mods.sort_by_key(|a| std::cmp::Reverse(a.file_size));
+                ModpackStats::to_table_cumulative(&mods)
+            }
+            SortMode::Smallest => {
+                mods.sort_by_key(|a| a.file_size);
+                ModpackStats::to_table_cumulative(&mods)
+            }
+            SortMode::Title => ModpackStats::to_table_by_title(&mods),
+        };
+
+        table.with(Style::rounded());
+        table.modify(Columns::new(..).not(Columns::last()), Alignment::right());
+        table
+    }
+
+    fn to_table_cumulative(mods: &[Mod]) -> Table {
         let mut rows: Vec<ModStatRow> = vec![];
 
         let sizes_down: Vec<u64> = mods.iter().map(|m| m.file_size).collect();
@@ -62,16 +79,25 @@ impl ModpackStats {
             })
         }
 
-        let mut table = Table::new(rows);
-        table.with(Style::rounded());
-        table.modify(Columns::new(..).not(Columns::last()), Alignment::right());
-        table
+        Table::new(rows)
+    }
+
+    fn to_table_by_title(mods: &[Mod]) -> Table {
+        Table::new(
+            mods.iter()
+                .enumerate()
+                .map(|(i, m)| ModStatRowWithoutTotal {
+                    index: i + 1,
+                    size: m.file_size,
+                    title: m.title.clone(),
+                }),
+        )
     }
 }
 
 impl Display for ModpackStats {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        self.to_table().fmt(f)
+        self.to_table(SortMode::default()).fmt(f)
     }
 }
 
@@ -93,6 +119,16 @@ struct ModStatRow {
     total_up: u64,
     #[tabled(rename = "Total (down)", display = "display_filesize")]
     total_down: u64,
+    #[tabled(rename = "Size", display = "display_filesize")]
+    size: u64,
+    #[tabled(rename = "Title")]
+    title: String,
+}
+
+#[derive(Clone, Debug, Default, PartialEq, Eq, Tabled)]
+struct ModStatRowWithoutTotal {
+    #[tabled(rename = "#")]
+    index: usize,
     #[tabled(rename = "Size", display = "display_filesize")]
     size: u64,
     #[tabled(rename = "Title")]
@@ -171,4 +207,12 @@ impl From<ParseIntError> for ModError {
     fn from(value: ParseIntError) -> Self {
         Self::ParseIntError(value)
     }
+}
+
+#[derive(Copy, Clone, Debug, Default, PartialEq, Eq, PartialOrd, Ord, clap::ValueEnum)]
+pub enum SortMode {
+    #[default]
+    Largest,
+    Smallest,
+    Title,
 }

@@ -6,6 +6,7 @@ use clap_verbosity_flag::{InfoLevel, Verbosity};
 use log::{debug, info};
 
 use sum_modpack::modpack::{Modpack, ModpackError};
+use sum_modpack::stats::SortMode;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let cli = Cli::parse();
@@ -36,7 +37,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let stats = modpack.fetch_stats()?;
     debug!("{stats:?}");
 
-    println!("{stats}");
+    let sort = cli.sort.unwrap_or(SortMode::default());
+    let table = stats.to_table(sort);
+    println!("{table}");
 
     Ok(())
 }
@@ -44,6 +47,10 @@ fn main() -> Result<(), Box<dyn Error>> {
 #[derive(Debug, Parser)]
 #[command(version, about, long_about = None)]
 struct Cli {
+    /// How mods are sorted in the table
+    #[arg(short, long, value_enum)]
+    sort: Option<SortMode>,
+
     #[command(flatten)]
     verbosity: Verbosity<InfoLevel>,
 
