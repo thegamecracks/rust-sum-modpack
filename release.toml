@@ -1,0 +1,3 @@
+# https://github.com/crate-ci/cargo-release/blob/master/docs/reference.md
+publish = false
+push = false
