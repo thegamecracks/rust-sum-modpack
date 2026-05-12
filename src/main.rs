@@ -5,7 +5,7 @@ use clap::Parser;
 use clap_verbosity_flag::{InfoLevel, Verbosity};
 use log::{debug, info};
 
-use sum_modpack::{Modpack, ModpackError};
+use sum_modpack::modpack::{Modpack, ModpackError};
 
 fn main() -> Result<(), Box<dyn Error>> {
     let cli = Cli::parse();
