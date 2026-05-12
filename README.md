@@ -6,7 +6,7 @@
 A rewrite of my [sum_modpack.py] script in Rust, for fun!
 
 ```rust
-$ cargo run -q -- --help
+$ sum-modpack --help
 Fetch filesize statistics for a set of Steam Workshop IDs.
 
 Usage: sum-modpack.exe [OPTIONS] <MODPACK>
@@ -21,7 +21,7 @@ Options:
   -h, --help         Print help
   -V, --version      Print version
 
-$ cargo run -q -- examples/WHF_Drakovac.html
+$ sum-modpack examples/WHF_Drakovac.html
  INFO  sum_modpack > Fetching 19 workshop mods
 ╭────┬────────────┬──────────────┬─────────┬───────────────────────────────────╮
 │  # │ Total (up) │ Total (down) │    Size │ Title                             │
@@ -114,6 +114,11 @@ This assumes you have [cargo].
 
 1. `cargo install --path .`
 2. `sum-modpack --help`
+
+## Development
+
+Instead of installing the project each time you make changes, you can compile
+and run the CLI on demand with `cargo run`, for example, `cargo run -q -- --help`.
 
 ## Todo
 
