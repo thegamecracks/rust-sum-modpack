@@ -14,7 +14,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         .filter_level(cli.verbosity.log_level_filter())
         .init();
 
-    let modpack = match Modpack::from_path(&cli.modpack) {
+    let modpack = match Modpack::try_from(cli.modpack.as_path()) {
         Ok(modpack) => modpack,
         Err(e) => {
             let filename = cli.modpack.display();

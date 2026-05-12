@@ -18,11 +18,6 @@ impl Modpack {
     const STEAMAPI_FILEDETAILS_URL: &str =
         "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/";
 
-    pub fn from_path(path: &Path) -> Result<Self, std::io::Error> {
-        let content = read_to_string(path)?;
-        Ok(Self::from_str(&content).expect("from_str() should not fail"))
-    }
-
     pub fn fetch_stats(&self) -> Result<stats::ModpackStats, FetchStatsError> {
         let request = payloads::PublishedFileDetailsRequest::new(&self.workshop_ids);
         let response = ureq::post(Self::STEAMAPI_FILEDETAILS_URL)
@@ -31,7 +26,16 @@ impl Modpack {
             .body_mut()
             .read_json::<payloads::PublishedFileDetailsResponse>()?;
         // TODO: consider logging body here
-        Ok(stats::ModpackStats::from_response(&response))
+        Ok((&response).into())
+    }
+}
+
+impl TryFrom<&Path> for Modpack {
+    type Error = std::io::Error;
+
+    fn try_from(path: &Path) -> Result<Self, Self::Error> {
+        let content = read_to_string(path)?;
+        Ok(Self::from_str(&content).expect("from_str() should not fail"))
     }
 }
 

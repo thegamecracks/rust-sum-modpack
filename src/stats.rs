@@ -16,17 +16,6 @@ pub struct ModpackStats {
 }
 
 impl ModpackStats {
-    pub fn from_response(response: &payloads::PublishedFileDetailsResponse) -> Self {
-        let mut mods = vec![];
-        for details in response.response.publishedfiledetails.iter() {
-            match Mod::try_from(details) {
-                Ok(m) => mods.push(m),
-                Err(e) => warn!("{}", e),
-            }
-        }
-        Self { mods }
-    }
-
     pub fn to_table(&self, sort: SortMode) -> Table {
         let mut mods: Vec<Mod> = self.mods.to_vec();
         mods.sort_by(|a, b| a.title.cmp(&b.title));
@@ -82,6 +71,19 @@ impl ModpackStats {
                     title: m.title.clone(),
                 }),
         )
+    }
+}
+
+impl From<&payloads::PublishedFileDetailsResponse> for ModpackStats {
+    fn from(response: &payloads::PublishedFileDetailsResponse) -> Self {
+        let mut mods = vec![];
+        for details in response.response.publishedfiledetails.iter() {
+            match Mod::try_from(details) {
+                Ok(m) => mods.push(m),
+                Err(e) => warn!("{}", e),
+            }
+        }
+        Self { mods }
     }
 }
 
