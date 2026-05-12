@@ -9,7 +9,7 @@ use std::sync::LazyLock;
 
 use regex::Regex;
 
-#[derive(Debug)]
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
 pub struct Modpack {
     pub workshop_ids: Vec<u64>,
 }

@@ -9,7 +9,7 @@ use tabled::{Table, Tabled};
 
 use crate::payloads;
 
-#[derive(Debug)]
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
 pub struct ModpackStats {
     pub mods: Vec<Mod>,
 }
@@ -81,7 +81,7 @@ fn cumulative_sum<T: Default + Copy + std::ops::AddAssign>(values: &[T]) -> Vec<
     sums
 }
 
-#[derive(Tabled)]
+#[derive(Clone, Debug, Default, PartialEq, Eq, Tabled)]
 struct ModStatRow {
     #[tabled(rename = "#")]
     index: usize,
@@ -112,7 +112,7 @@ fn display_filesize(n: &u64) -> String {
     }
 }
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
 pub struct Mod {
     pub publishedfileid: u64,
     pub title: String,
@@ -156,6 +156,7 @@ impl TryFrom<&payloads::FileDetails> for Mod {
     }
 }
 
+#[derive(Clone, Debug, PartialEq, Eq)]
 pub enum ModError {
     ItemNotFound(String),
     InvalidResult(String, u64),

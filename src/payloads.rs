@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Serialize)]
+#[derive(Clone, Debug, Default, PartialEq, Eq, Serialize)]
 pub struct PublishedFileDetailsRequest {
     pub itemcount: usize,
     #[serde(flatten)]
@@ -18,18 +18,18 @@ impl PublishedFileDetailsRequest {
     }
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq, Eq)]
 pub struct PublishedFileDetailsResponse {
     pub response: PublishedFileDetailsResponseResponse,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq, Eq)]
 pub struct PublishedFileDetailsResponseResponse {
     // FIXME: is there a better name/approach?
     pub publishedfiledetails: Vec<FileDetails>,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize, PartialEq, Eq)]
 #[serde(untagged)]
 pub enum FileDetails {
     Ok {
@@ -44,7 +44,7 @@ pub enum FileDetails {
     },
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq, Eq)]
 pub struct Tag {
     pub tag: String,
 }
