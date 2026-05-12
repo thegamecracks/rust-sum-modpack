@@ -5,7 +5,7 @@ use clap::Parser;
 use clap_verbosity_flag::{InfoLevel, Verbosity};
 use tracing::{debug, info};
 
-use sum_modpack::modpack::{Modpack, ModpackError};
+use sum_modpack::modpack::Modpack;
 use sum_modpack::stats::SortMode;
 
 fn main() -> Result<(), Box<dyn Error>> {
@@ -16,14 +16,9 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let modpack = match Modpack::from_path(&cli.modpack) {
         Ok(modpack) => modpack,
-        Err(e) => match e {
-            ModpackError::IOError(e) => {
-                let filename = cli.modpack.display();
-                return Err(format!("Failed to read modpack file '{filename}': {e}").into());
-            }
-            ModpackError::Unknown => {
-                return Err("Unknown error".into());
-            }
+        Err(e) => {
+            let filename = cli.modpack.display();
+            return Err(format!("Failed to read modpack file '{filename}': {e}").into());
         },
     };
 

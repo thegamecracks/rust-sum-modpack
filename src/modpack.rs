@@ -18,9 +18,9 @@ impl Modpack {
     const STEAMAPI_FILEDETAILS_URL: &str =
         "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/";
 
-    pub fn from_path(path: &Path) -> Result<Self, ModpackError> {
+    pub fn from_path(path: &Path) -> Result<Self, std::io::Error> {
         let content = read_to_string(path)?;
-        Ok(Self::from_str(&content)?)
+        Ok(Self::from_str(&content).expect("from_str() should not fail"))
     }
 
     pub fn fetch_stats(&self) -> Result<stats::ModpackStats, Box<dyn Error>> {
@@ -64,23 +64,6 @@ impl FromStr for Modpack {
         workshop_ids.retain(|id| unique_workshop_ids.insert(*id));
 
         Ok(Self { workshop_ids })
-    }
-}
-
-pub enum ModpackError {
-    IOError(std::io::Error),
-    Unknown,
-}
-
-impl From<std::io::Error> for ModpackError {
-    fn from(value: std::io::Error) -> Self {
-        Self::IOError(value)
-    }
-}
-
-impl From<()> for ModpackError {
-    fn from(_value: ()) -> Self {
-        Self::Unknown
     }
 }
 
