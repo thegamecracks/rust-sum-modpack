@@ -92,7 +92,7 @@ This assumes you have [cargo].
 $ sum-modpack --help
 Fetch filesize statistics for a set of Steam Workshop IDs.
 
-Usage: sum-modpack.exe [OPTIONS] <MODPACK>
+Usage: sum-modpack [OPTIONS] <MODPACK>
 
 Arguments:
   <MODPACK>  The modpack file to read
