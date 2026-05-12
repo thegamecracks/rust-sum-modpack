@@ -60,13 +60,9 @@ Number of mods: 19
  19         3KB       4,952MB        3KB  Splendid Smoke
 ```
 
-To be fair, `sum_modpack.py` was designed to be zero-dependency for convenience,
-so it was out of scope for me to prettify its output with a [Rich] table.
-
 ## License
 
 This project is written under the [MIT License].
 
 [sum_modpack.py]: /sum_modpack.py
-[Rich]: https://rich.readthedocs.io/en/stable/
 [MIT License]: /LICENSE
