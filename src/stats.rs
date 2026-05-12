@@ -16,9 +16,7 @@ pub struct ModpackStats {
 }
 
 impl ModpackStats {
-    pub fn from_response(
-        response: &payloads::PublishedFileDetailsResponse,
-    ) -> Result<Self, String> {
+    pub fn from_response(response: &payloads::PublishedFileDetailsResponse) -> Self {
         let mut mods = vec![];
         for details in response.response.publishedfiledetails.iter() {
             match Mod::try_from(details) {
@@ -26,7 +24,7 @@ impl ModpackStats {
                 Err(e) => warn!("{}", e),
             }
         }
-        Ok(Self { mods })
+        Self { mods }
     }
 
     pub fn to_table(&self, sort: SortMode) -> Table {

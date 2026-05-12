@@ -1,10 +1,10 @@
-use std::error::Error;
 use std::fs::read_to_string;
 use std::path::Path;
 use std::str::FromStr;
 use std::sync::LazyLock;
 
 use regex::Regex;
+use thiserror::Error;
 
 use crate::payloads;
 use crate::stats;
@@ -23,20 +23,15 @@ impl Modpack {
         Ok(Self::from_str(&content).expect("from_str() should not fail"))
     }
 
-    pub fn fetch_stats(&self) -> Result<stats::ModpackStats, Box<dyn Error>> {
+    pub fn fetch_stats(&self) -> Result<stats::ModpackStats, FetchStatsError> {
         let request = payloads::PublishedFileDetailsRequest::new(&self.workshop_ids);
-        let client = reqwest::blocking::Client::new();
-        let response = client
-            .post(Self::STEAMAPI_FILEDETAILS_URL)
-            .form(&request)
-            .send()?;
-
-        // let mut content = String::new();
-        // response.read_to_string(&mut content)?;
-        // println!("{content}");
-
-        let response = response.json::<payloads::PublishedFileDetailsResponse>()?;
-        Ok(stats::ModpackStats::from_response(&response)?)
+        let response = ureq::post(Self::STEAMAPI_FILEDETAILS_URL)
+            .content_type("application/x-www-form-urlencoded")
+            .send(serde_urlencoded::ser::to_string(request)?)?
+            .body_mut()
+            .read_json::<payloads::PublishedFileDetailsResponse>()?;
+        // TODO: consider logging body here
+        Ok(stats::ModpackStats::from_response(&response))
     }
 }
 
@@ -65,6 +60,14 @@ impl FromStr for Modpack {
 
         Ok(Self { workshop_ids })
     }
+}
+
+#[derive(Debug, Error)]
+pub enum FetchStatsError {
+    #[error("{0}")]
+    FormSerializationError(#[from] serde_urlencoded::ser::Error),
+    #[error("{0}")]
+    RequestError(#[from] ureq::Error),
 }
 
 #[cfg(test)]
