@@ -6,6 +6,21 @@
 A rewrite of my [sum_modpack.py] script in Rust, for fun!
 
 ```rust
+$ cargo run -q -- --help
+Fetch filesize statistics for a set of Steam Workshop IDs.
+
+Usage: sum_modpack.exe [OPTIONS] <MODPACK>
+
+Arguments:
+  <MODPACK>  The modpack file to read
+
+Options:
+  -s, --sort <SORT>  How mods are sorted in the table [possible values: largest, smallest, title]
+  -v, --verbose...   Increase logging verbosity
+  -q, --quiet...     Decrease logging verbosity
+  -h, --help         Print help
+  -V, --version      Print version
+
 $ cargo run -q -- examples/WHF_Drakovac.html
  INFO  sum_modpack > Fetching 19 workshop mods
 ╭────┬────────────┬──────────────┬─────────┬───────────────────────────────────╮
@@ -36,6 +51,20 @@ $ cargo run -q -- examples/WHF_Drakovac.html
 The output of `sum_modpack.py` for comparison:
 
 ```py
+$ python sum_modpack.py --help
+usage: sum_modpack.py [-h] [-s {largest,smallest,title}] [-v] mods [mods ...]
+
+Produce filesize statistics from a list of workshop mods.
+
+positional arguments:
+  mods                  Workshop item IDs, collections, or modpack files to sum
+
+options:
+  -h, --help            show this help message and exit
+  -s, --sort {largest,smallest,title}
+                        How mods are sorted in the table
+  -v, --verbose         Increase logging verbosity
+
 $ python sum_modpack.py examples/WHF_Drakovac.html
 Number of mods: 19
   #  Total (up)  Total (down)       Size  Title
