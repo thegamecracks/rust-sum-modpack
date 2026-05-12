@@ -9,7 +9,7 @@ A rewrite of my [sum_modpack.py] script in Rust, for fun!
 $ cargo run -q -- --help
 Fetch filesize statistics for a set of Steam Workshop IDs.
 
-Usage: sum_modpack.exe [OPTIONS] <MODPACK>
+Usage: sum-modpack.exe [OPTIONS] <MODPACK>
 
 Arguments:
   <MODPACK>  The modpack file to read
