@@ -3,7 +3,7 @@ use std::path::PathBuf;
 
 use clap::Parser;
 use clap_verbosity_flag::{InfoLevel, Verbosity};
-use log::{debug, info};
+use tracing::{debug, info};
 
 use sum_modpack::modpack::{Modpack, ModpackError};
 use sum_modpack::stats::SortMode;
